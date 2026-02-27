@@ -53,10 +53,9 @@ const navItemsByRole: Record<string, NavItem[]> = {
   ],
   coach: [
     { label: "Dashboard", href: "/coach", icon: LayoutDashboard },
-    { label: "Students", href: "/coach/students", icon: Users },
-    { label: "Sessions", href: "/coach/sessions", icon: Calendar },
+    { label: "My Students", href: "/coach/students", icon: Users },
     { label: "Messages", href: "/coach/messages", icon: MessageSquare },
-    { label: "Resources", href: "/coach/resources", icon: BookOpen },
+    { label: "Calendar", href: "/coach/calendar", icon: Calendar },
     { label: "My Profile", href: "/coach/profile", icon: UserCircle },
   ],
   admin: [

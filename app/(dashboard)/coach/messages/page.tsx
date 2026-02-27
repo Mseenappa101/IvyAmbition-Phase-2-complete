@@ -1,5 +1,5 @@
-import { MessagesPageClient } from "@/components/messages/MessagesPageClient";
+import { CoachMessagesPageClient } from "@/components/messages/CoachMessagesPageClient";
 
 export default function CoachMessagesPage() {
-  return <MessagesPageClient />;
+  return <CoachMessagesPageClient />;
 }

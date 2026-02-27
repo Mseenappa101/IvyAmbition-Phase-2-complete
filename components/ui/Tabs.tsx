@@ -65,7 +65,7 @@ export function Tabs({
   return (
     <div className={className}>
       <div className="relative" ref={containerRef}>
-        <div className="flex gap-1 border-b border-ivory-400">
+        <div className="flex gap-1 border-b border-navy-700/50">
           {tabs.map((tab) => (
             <button
               key={tab.id}
@@ -78,8 +78,8 @@ export function Tabs({
               className={cn(
                 "relative flex items-center gap-2 px-4 py-3 font-sans text-body-sm font-medium transition-colors",
                 activeTab === tab.id
-                  ? "text-navy-900"
-                  : "text-charcoal-400 hover:text-charcoal-700",
+                  ? "text-gold-400"
+                  : "text-ivory-600 hover:text-ivory-300",
                 tab.disabled && "cursor-not-allowed opacity-50"
               )}
             >
