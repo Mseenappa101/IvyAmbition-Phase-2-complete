@@ -21,6 +21,7 @@ import {
   BookOpen,
   Settings,
   BarChart3,
+  UserPlus,
 } from "lucide-react";
 import { cn } from "@/lib/utils/cn";
 import { useAppStore } from "@/hooks/use-store";
@@ -60,9 +61,9 @@ const navItemsByRole: Record<string, NavItem[]> = {
   ],
   admin: [
     { label: "Dashboard", href: "/admin", icon: LayoutDashboard },
-    { label: "Users", href: "/admin/users", icon: Users },
+    { label: "Students", href: "/admin/students", icon: Users },
     { label: "Coaches", href: "/admin/coaches", icon: GraduationCap },
-    { label: "Analytics", href: "/admin/analytics", icon: BarChart3 },
+    { label: "Assignments", href: "/admin/assignments", icon: UserPlus },
     { label: "Settings", href: "/admin/settings", icon: Settings },
   ],
 };
