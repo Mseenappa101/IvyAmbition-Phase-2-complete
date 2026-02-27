@@ -2,6 +2,7 @@
 
 import { createClient, createServiceRoleClient } from "@/lib/supabase/server";
 import { fetchUnreadCount } from "@/lib/actions/messages";
+import { createNotification } from "@/lib/actions/notifications";
 import type { EssayStatus, DocumentCategory, TaskPriority } from "@/types/database";
 
 // ─── Types ──────────────────────────────────────────────────────────────────
@@ -743,6 +744,37 @@ export async function createEssayFeedback(params: {
     .single();
 
   if (error) return { data: null, error: error.message };
+
+  // ── Notification trigger: notify student of coach feedback ──
+  try {
+    const admin2 = createServiceRoleClient();
+    const { data: sp } = await admin2
+      .from("student_profiles")
+      .select("user_id")
+      .eq("id", essay.student_id)
+      .single();
+
+    const { data: essayData } = await admin2
+      .from("essays")
+      .select("title")
+      .eq("id", params.essayId)
+      .single();
+
+    if (sp?.user_id) {
+      await createNotification(
+        sp.user_id,
+        "feedback",
+        `Coach feedback on "${essayData?.title ?? "your essay"}"`,
+        params.content.length > 100
+          ? params.content.slice(0, 100) + "..."
+          : params.content,
+        `/student/essays/${params.essayId}`
+      );
+    }
+  } catch {
+    // Notification failure should not block feedback creation
+  }
+
   return { data, error: null };
 }
 

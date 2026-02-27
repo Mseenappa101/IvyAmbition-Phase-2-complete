@@ -1,6 +1,7 @@
 "use server";
 
 import { createClient, createServiceRoleClient } from "@/lib/supabase/server";
+import { createNotification } from "@/lib/actions/notifications";
 import type { StudentStatus } from "@/types/database";
 
 // ─── Types ──────────────────────────────────────────────────────────────────
@@ -596,6 +597,54 @@ export async function assignCoachToStudent(
     content: "You've been matched with your IvyAmbition counselor!",
     message_type: "system",
   });
+
+  // 5. Notification triggers — notify both student and coach
+  try {
+    // Get student's user_id and names
+    const { data: sp } = await admin
+      .from("student_profiles")
+      .select("user_id, profiles!student_profiles_user_id_fkey(first_name, last_name)")
+      .eq("id", studentProfileId)
+      .single();
+
+    const { data: coachProfile } = await admin
+      .from("profiles")
+      .select("first_name, last_name")
+      .eq("id", coachUserId)
+      .single();
+
+    if (sp?.user_id) {
+      const coachName = coachProfile
+        ? `${coachProfile.first_name} ${coachProfile.last_name}`
+        : "your coach";
+      await createNotification(
+        sp.user_id,
+        "assignment",
+        "New coach assigned!",
+        `You've been matched with ${coachName}. Say hello in Messages!`,
+        "/student/messages"
+      );
+    }
+
+    if (coachProfile) {
+      const studentProfile = sp?.profiles as unknown as {
+        first_name: string;
+        last_name: string;
+      } | null;
+      const studentName = studentProfile
+        ? `${studentProfile.first_name} ${studentProfile.last_name}`
+        : "a new student";
+      await createNotification(
+        coachUserId,
+        "assignment",
+        "New student assigned!",
+        `${studentName} has been added to your roster.`,
+        "/coach/students"
+      );
+    }
+  } catch {
+    // Notification failure should not block assignment
+  }
 
   return { success: true, error: null };
 }

@@ -1,6 +1,7 @@
 "use server";
 
 import { createClient, createServiceRoleClient } from "@/lib/supabase/server";
+import { createNotification } from "@/lib/actions/notifications";
 import type { EssayStatus } from "@/types/database";
 
 // ─── Helper: Get student profile ID from auth ──────────────────────────────
@@ -175,6 +176,42 @@ export async function updateEssayStatus(
     .eq("student_id", profileId);
 
   if (error) return { error: error.message };
+
+  // ── Notification trigger: notify coach when essay submitted for review ──
+  if (status === "coach_review") {
+    try {
+      // Get student's assigned coach
+      const { data: sp } = await admin
+        .from("student_profiles")
+        .select("assigned_coach_id, profiles!student_profiles_user_id_fkey(first_name, last_name)")
+        .eq("id", profileId)
+        .single();
+
+      const { data: essayData } = await admin
+        .from("essays")
+        .select("title")
+        .eq("id", essayId)
+        .single();
+
+      if (sp?.assigned_coach_id) {
+        const studentProfile = sp.profiles as unknown as {
+          first_name: string;
+          last_name: string;
+        };
+        const studentName = `${studentProfile.first_name} ${studentProfile.last_name}`;
+        await createNotification(
+          sp.assigned_coach_id,
+          "feedback",
+          `${studentName} submitted essay for review`,
+          `"${essayData?.title ?? "Untitled"}" is ready for your feedback`,
+          `/coach/students/${profileId}`
+        );
+      }
+    } catch {
+      // Notification failure should not block status update
+    }
+  }
+
   return { error: null };
 }
 

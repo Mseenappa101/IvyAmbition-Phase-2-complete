@@ -1,6 +1,7 @@
 "use server";
 
 import { createClient, createServiceRoleClient } from "@/lib/supabase/server";
+import { createNotification } from "@/lib/actions/notifications";
 import type { SchoolApplicationStatus, RequirementType } from "@/types/database";
 
 // ─── Fetch all schools for the current user ──────────────────────────────────
@@ -97,6 +98,29 @@ export async function updateSchoolStatus(
     .eq("user_id", user.id);
 
   if (error) return { error: error.message };
+
+  // ── Notification trigger: notify student of school status change ──
+  try {
+    const { data: school } = await admin
+      .from("student_schools")
+      .select("school_name")
+      .eq("id", schoolId)
+      .single();
+
+    if (school) {
+      const statusLabel = status.replace(/_/g, " ");
+      await createNotification(
+        user.id,
+        "system",
+        `${school.school_name} updated to ${statusLabel}`,
+        `Your application status for ${school.school_name} is now "${statusLabel}".`,
+        "/student/schools"
+      );
+    }
+  } catch {
+    // Notification failure should not block status update
+  }
+
   return { error: null };
 }
 

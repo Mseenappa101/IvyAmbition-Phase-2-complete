@@ -1,6 +1,7 @@
 "use server";
 
 import { createClient, createServiceRoleClient } from "@/lib/supabase/server";
+import { createNotification } from "@/lib/actions/notifications";
 import type { MessageType } from "@/types/database";
 
 // ─── Helper: Get authenticated user ID ──────────────────────────────────────
@@ -213,6 +214,65 @@ export async function sendMessage(payload: SendMessagePayload) {
     .single();
 
   if (error) return { data: null, error: error.message };
+
+  // ── Notification trigger ──
+  try {
+    const admin2 = createServiceRoleClient();
+
+    // Get conversation to determine recipient
+    const { data: conv } = await admin2
+      .from("conversations")
+      .select("student_id, coach_id")
+      .eq("id", payload.conversationId)
+      .single();
+
+    if (conv) {
+      // Get sender's name
+      const { data: senderProfile } = await admin2
+        .from("profiles")
+        .select("first_name, last_name, role")
+        .eq("id", userId)
+        .single();
+
+      const senderName = senderProfile
+        ? `${senderProfile.first_name} ${senderProfile.last_name}`
+        : "Someone";
+
+      // Determine recipient user ID
+      let recipientUserId: string | null = null;
+      let relatedUrl: string;
+
+      if (senderProfile?.role === "student") {
+        // Student sent → notify coach
+        recipientUserId = conv.coach_id;
+        relatedUrl = "/coach/messages";
+      } else {
+        // Coach sent → notify student (need user_id from student_profiles)
+        const { data: sp } = await admin2
+          .from("student_profiles")
+          .select("user_id")
+          .eq("id", conv.student_id)
+          .single();
+        recipientUserId = sp?.user_id ?? null;
+        relatedUrl = "/student/messages";
+      }
+
+      if (recipientUserId) {
+        await createNotification(
+          recipientUserId,
+          "message",
+          `New message from ${senderName}`,
+          payload.content.length > 100
+            ? payload.content.slice(0, 100) + "..."
+            : payload.content,
+          relatedUrl
+        );
+      }
+    }
+  } catch {
+    // Notification failure should not block message sending
+  }
+
   return { data, error: null };
 }
 

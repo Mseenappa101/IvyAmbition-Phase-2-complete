@@ -119,7 +119,7 @@ export function EssayReviewClient() {
     (inputMode === "paste" && pastedText.trim().length > 50);
 
   return (
-    <div className="flex h-[calc(100vh-4rem)] flex-col">
+    <div className="flex h-[calc(100vh-4rem)] flex-col bg-charcoal-900">
       {/* Header */}
       <div className="flex items-center justify-between border-b border-navy-700/30 px-6 py-3">
         <div className="flex items-center gap-3">
@@ -262,9 +262,9 @@ export function EssayReviewClient() {
           </div>
         </div>
       ) : (
-        <div className="flex flex-1 flex-col">
+        <div className="flex flex-1 flex-col bg-charcoal-900">
           {/* Messages */}
-          <div className="flex-1 overflow-y-auto px-6 py-4">
+          <div className="flex-1 overflow-y-auto bg-charcoal-900 px-6 py-4">
             <div className="space-y-4">
               {messages.map((msg, i) => (
                 <div
@@ -278,8 +278,8 @@ export function EssayReviewClient() {
                     className={cn(
                       "max-w-[85%] rounded-2xl px-4 py-3 font-sans text-body-sm leading-relaxed",
                       msg.role === "user"
-                        ? "bg-gold-500/15 text-ivory-200"
-                        : "bg-navy-800/60 text-ivory-300"
+                        ? "border border-gold-500/20 bg-gold-500/10 text-ivory-200"
+                        : "border border-navy-700/50 bg-navy-900 text-ivory-300"
                     )}
                   >
                     {msg.role === "assistant" && (
@@ -302,7 +302,7 @@ export function EssayReviewClient() {
                 messages.length > 0 &&
                 messages[messages.length - 1].role === "user" && (
                   <div className="flex justify-start">
-                    <div className="rounded-2xl bg-navy-800/60 px-4 py-3">
+                    <div className="rounded-2xl border border-navy-700/50 bg-navy-900 px-4 py-3">
                       <div className="flex gap-1">
                         <span className="h-2 w-2 animate-bounce rounded-full bg-gold-400 [animation-delay:0ms]" />
                         <span className="h-2 w-2 animate-bounce rounded-full bg-gold-400 [animation-delay:150ms]" />
@@ -322,7 +322,7 @@ export function EssayReviewClient() {
           )}
 
           {/* Follow-up input */}
-          <div className="border-t border-navy-700/30 px-6 py-3">
+          <div className="border-t border-navy-700/30 bg-charcoal-900 px-6 py-3">
             <div className="flex items-end gap-3">
               <textarea
                 ref={inputRef}

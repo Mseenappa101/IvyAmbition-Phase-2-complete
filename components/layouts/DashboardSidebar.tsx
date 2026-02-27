@@ -22,6 +22,7 @@ import {
   Settings,
   BarChart3,
   UserPlus,
+  X,
 } from "lucide-react";
 import { cn } from "@/lib/utils/cn";
 import { useAppStore } from "@/hooks/use-store";
@@ -70,7 +71,8 @@ const navItemsByRole: Record<string, NavItem[]> = {
 
 export function DashboardSidebar({ role }: DashboardSidebarProps) {
   const pathname = usePathname();
-  const { sidebarOpen, toggleSidebar } = useAppStore();
+  const { sidebarOpen, toggleSidebar, mobileSidebarOpen, setMobileSidebarOpen } =
+    useAppStore();
   const { totalUnreadCount } = useMessagesStore();
 
   const navItems = useMemo(() => {
@@ -89,39 +91,56 @@ export function DashboardSidebar({ role }: DashboardSidebarProps) {
     window.location.href = "/auth/login";
   };
 
-  return (
-    <motion.aside
-      initial={false}
-      animate={{ width: sidebarOpen ? 260 : 72 }}
-      transition={{ duration: 0.2, ease: "easeOut" }}
-      className="fixed left-0 top-0 z-20 flex h-screen flex-col bg-gradient-to-b from-navy-900 via-navy-900 to-navy-950"
-    >
+  const handleNavClick = () => {
+    // Close mobile sidebar on nav link click
+    if (mobileSidebarOpen) {
+      setMobileSidebarOpen(false);
+    }
+  };
+
+  const sidebarContent = (
+    <>
       {/* Logo */}
       <div className="flex h-16 items-center justify-between border-b border-navy-700/50 px-4">
         <AnimatePresence mode="wait">
-          {sidebarOpen && (
+          {(sidebarOpen || mobileSidebarOpen) && (
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.15 }}
             >
-              <Link href="/" className="font-serif text-heading-sm text-gold-400">
+              <Link
+                href="/"
+                className="font-serif text-heading-sm text-gold-400"
+                onClick={handleNavClick}
+              >
                 IvyAmbition
               </Link>
             </motion.div>
           )}
         </AnimatePresence>
+        {/* Desktop: collapse toggle | Mobile: close button */}
         <button
-          onClick={toggleSidebar}
+          onClick={() => {
+            if (mobileSidebarOpen) {
+              setMobileSidebarOpen(false);
+            } else {
+              toggleSidebar();
+            }
+          }}
           className="flex h-8 w-8 items-center justify-center rounded-lg text-ivory-600 transition-colors hover:bg-navy-800 hover:text-ivory-300"
         >
-          <ChevronLeft
-            className={cn(
-              "h-4 w-4 transition-transform",
-              !sidebarOpen && "rotate-180"
-            )}
-          />
+          {mobileSidebarOpen ? (
+            <X className="h-4 w-4" />
+          ) : (
+            <ChevronLeft
+              className={cn(
+                "h-4 w-4 transition-transform",
+                !sidebarOpen && "rotate-180"
+              )}
+            />
+          )}
         </button>
       </div>
 
@@ -131,11 +150,13 @@ export function DashboardSidebar({ role }: DashboardSidebarProps) {
           const isActive =
             pathname === item.href ||
             (item.href !== `/${role}` && pathname.startsWith(item.href));
+          const showLabel = sidebarOpen || mobileSidebarOpen;
 
           return (
             <Link
               key={item.href}
               href={item.href}
+              onClick={handleNavClick}
               className={cn(
                 "relative flex items-center gap-3 rounded-lg px-3 py-2.5 font-sans text-body-sm font-medium transition-all",
                 isActive
@@ -157,7 +178,7 @@ export function DashboardSidebar({ role }: DashboardSidebarProps) {
                 )}
               />
               <AnimatePresence mode="wait">
-                {sidebarOpen && (
+                {showLabel && (
                   <motion.span
                     initial={{ opacity: 0, width: 0 }}
                     animate={{ opacity: 1, width: "auto" }}
@@ -169,12 +190,12 @@ export function DashboardSidebar({ role }: DashboardSidebarProps) {
                   </motion.span>
                 )}
               </AnimatePresence>
-              {item.badge && item.badge > 0 && sidebarOpen && (
+              {item.badge && item.badge > 0 && showLabel && (
                 <span className="ml-auto flex h-5 min-w-[1.25rem] items-center justify-center rounded-full bg-gold-500 px-1.5 font-sans text-[0.625rem] font-bold text-navy-950">
                   {item.badge > 99 ? "99+" : item.badge}
                 </span>
               )}
-              {item.badge && item.badge > 0 && !sidebarOpen && (
+              {item.badge && item.badge > 0 && !showLabel && (
                 <span className="absolute right-1 top-1 h-2 w-2 rounded-full bg-gold-500" />
               )}
             </Link>
@@ -190,7 +211,7 @@ export function DashboardSidebar({ role }: DashboardSidebarProps) {
         >
           <LogOut className="h-5 w-5 shrink-0" />
           <AnimatePresence mode="wait">
-            {sidebarOpen && (
+            {(sidebarOpen || mobileSidebarOpen) && (
               <motion.span
                 initial={{ opacity: 0, width: 0 }}
                 animate={{ opacity: 1, width: "auto" }}
@@ -204,6 +225,47 @@ export function DashboardSidebar({ role }: DashboardSidebarProps) {
           </AnimatePresence>
         </button>
       </div>
-    </motion.aside>
+    </>
+  );
+
+  return (
+    <>
+      {/* Desktop Sidebar */}
+      <motion.aside
+        initial={false}
+        animate={{ width: sidebarOpen ? 260 : 72 }}
+        transition={{ duration: 0.2, ease: "easeOut" }}
+        className="fixed left-0 top-0 z-20 hidden h-screen flex-col bg-gradient-to-b from-navy-900 via-navy-900 to-navy-950 lg:flex"
+      >
+        {sidebarContent}
+      </motion.aside>
+
+      {/* Mobile Sidebar Overlay */}
+      <AnimatePresence>
+        {mobileSidebarOpen && (
+          <>
+            {/* Backdrop */}
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.2 }}
+              className="fixed inset-0 z-30 bg-black/60 backdrop-blur-sm lg:hidden"
+              onClick={() => setMobileSidebarOpen(false)}
+            />
+            {/* Sidebar Panel */}
+            <motion.aside
+              initial={{ x: -280 }}
+              animate={{ x: 0 }}
+              exit={{ x: -280 }}
+              transition={{ duration: 0.2, ease: "easeOut" }}
+              className="fixed left-0 top-0 z-40 flex h-screen w-[280px] flex-col bg-gradient-to-b from-navy-900 via-navy-900 to-navy-950 lg:hidden"
+            >
+              {sidebarContent}
+            </motion.aside>
+          </>
+        )}
+      </AnimatePresence>
+    </>
   );
 }

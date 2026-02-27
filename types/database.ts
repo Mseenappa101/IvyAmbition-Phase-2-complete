@@ -71,6 +71,10 @@ export type TaskStatus = "pending" | "in_progress" | "completed";
 
 export type MessageType = "text" | "feedback" | "file" | "system";
 
+// ─── Notification Enum Types ────────────────────────────────────────────────
+
+export type NotificationType = "message" | "feedback" | "deadline" | "assignment" | "system";
+
 // ─── Essay Enum Types ──────────────────────────────────────────────────────
 
 export type EssayStatus =
@@ -718,6 +722,40 @@ export interface Database {
           },
         ];
       };
+      notifications: {
+        Row: {
+          id: string;
+          user_id: string;
+          type: NotificationType;
+          title: string;
+          body: string;
+          related_url: string | null;
+          read: boolean;
+          created_at: string;
+        };
+        Insert: {
+          id?: string;
+          user_id: string;
+          type?: NotificationType;
+          title: string;
+          body: string;
+          related_url?: string | null;
+          read?: boolean;
+          created_at?: string;
+        };
+        Update: {
+          read?: boolean;
+        };
+        Relationships: [
+          {
+            foreignKeyName: "notifications_user_id_fkey";
+            columns: ["user_id"];
+            isOneToOne: false;
+            referencedRelation: "profiles";
+            referencedColumns: ["id"];
+          },
+        ];
+      };
     };
     Views: {
       [_ in never]: never;
@@ -739,6 +777,7 @@ export interface Database {
       task_priority: TaskPriority;
       task_status: TaskStatus;
       message_type: MessageType;
+      notification_type: NotificationType;
     };
     CompositeTypes: {
       [_ in never]: never;
@@ -852,3 +891,8 @@ export type MessageWithSender = ChatMessage & {
   essays: { id: string; title: string } | null;
   student_schools: { id: string; school_name: string } | null;
 };
+
+// ─── Notification Types ────────────────────────────────────────────────────
+
+export type Notification = Database["public"]["Tables"]["notifications"]["Row"];
+export type NotificationInsert = Database["public"]["Tables"]["notifications"]["Insert"];
