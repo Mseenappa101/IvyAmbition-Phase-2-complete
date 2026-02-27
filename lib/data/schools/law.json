@@ -1,0 +1,2012 @@
+[
+  {
+    "name": "Yale Law School",
+    "slug": "yale-law-school",
+    "type": "law_school",
+    "location": "New Haven, CT",
+    "ranking": 1,
+    "deadlines": {
+      "early_decision": "2025-11-15",
+      "regular_decision": "2026-02-15"
+    }
+  },
+  {
+    "name": "Stanford Law School",
+    "slug": "stanford-law-school",
+    "type": "law_school",
+    "location": "Stanford, CA",
+    "ranking": 2,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "Harvard Law School",
+    "slug": "harvard-law-school",
+    "type": "law_school",
+    "location": "Cambridge, MA",
+    "ranking": 3,
+    "deadlines": {
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "Columbia Law School",
+    "slug": "columbia-law-school",
+    "type": "law_school",
+    "location": "New York, NY",
+    "ranking": 4,
+    "deadlines": {
+      "early_decision": "2025-11-15",
+      "regular_decision": "2026-02-15"
+    }
+  },
+  {
+    "name": "University of Chicago Law School",
+    "slug": "university-of-chicago-law-school",
+    "type": "law_school",
+    "location": "Chicago, IL",
+    "ranking": 5,
+    "deadlines": {
+      "early_decision": "2025-12-01",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "New York University School of Law",
+    "slug": "new-york-university-school-of-law",
+    "type": "law_school",
+    "location": "New York, NY",
+    "ranking": 6,
+    "deadlines": {
+      "regular_decision": "2026-03-15"
+    }
+  },
+  {
+    "name": "University of Pennsylvania Carey Law School",
+    "slug": "university-of-pennsylvania-carey-law-school",
+    "type": "law_school",
+    "location": "Philadelphia, PA",
+    "ranking": 7,
+    "deadlines": {
+      "early_decision": "2025-11-15",
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "University of Virginia School of Law",
+    "slug": "university-of-virginia-school-of-law",
+    "type": "law_school",
+    "location": "Charlottesville, VA",
+    "ranking": 8,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "University of Michigan Law School",
+    "slug": "university-of-michigan-law-school",
+    "type": "law_school",
+    "location": "Ann Arbor, MI",
+    "ranking": 9,
+    "deadlines": {
+      "regular_decision": "2026-03-15"
+    }
+  },
+  {
+    "name": "University of California Berkeley School of Law",
+    "slug": "university-of-california-berkeley-school-of-law",
+    "type": "law_school",
+    "location": "Berkeley, CA",
+    "ranking": 10,
+    "deadlines": {
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "Duke University School of Law",
+    "slug": "duke-university-school-of-law",
+    "type": "law_school",
+    "location": "Durham, NC",
+    "ranking": 11,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-03-15"
+    }
+  },
+  {
+    "name": "Northwestern Pritzker School of Law",
+    "slug": "northwestern-pritzker-school-of-law",
+    "type": "law_school",
+    "location": "Chicago, IL",
+    "ranking": 12,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "Cornell Law School",
+    "slug": "cornell-law-school",
+    "type": "law_school",
+    "location": "Ithaca, NY",
+    "ranking": 13,
+    "deadlines": {
+      "regular_decision": "2026-03-15"
+    }
+  },
+  {
+    "name": "Georgetown University Law Center",
+    "slug": "georgetown-university-law-center",
+    "type": "law_school",
+    "location": "Washington, DC",
+    "ranking": 14,
+    "deadlines": {
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "University of Texas School of Law",
+    "slug": "university-of-texas-school-of-law",
+    "type": "law_school",
+    "location": "Austin, TX",
+    "ranking": 15,
+    "deadlines": {
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "Vanderbilt University Law School",
+    "slug": "vanderbilt-university-law-school",
+    "type": "law_school",
+    "location": "Nashville, TN",
+    "ranking": 16,
+    "deadlines": {
+      "regular_decision": "2026-03-15"
+    }
+  },
+  {
+    "name": "UCLA School of Law",
+    "slug": "ucla-school-of-law",
+    "type": "law_school",
+    "location": "Los Angeles, CA",
+    "ranking": 17,
+    "deadlines": {
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "Washington University School of Law",
+    "slug": "washington-university-school-of-law",
+    "type": "law_school",
+    "location": "St. Louis, MO",
+    "ranking": 18,
+    "deadlines": {
+      "early_decision": "2025-11-15",
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "George Washington University Law School",
+    "slug": "george-washington-university-law-school",
+    "type": "law_school",
+    "location": "Washington, DC",
+    "ranking": 19,
+    "deadlines": {
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "University of Minnesota Law School",
+    "slug": "university-of-minnesota-law-school",
+    "type": "law_school",
+    "location": "Minneapolis, MN",
+    "ranking": 20,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "University of Notre Dame Law School",
+    "slug": "university-of-notre-dame-law-school",
+    "type": "law_school",
+    "location": "Notre Dame, IN",
+    "ranking": 21,
+    "deadlines": {
+      "regular_decision": "2026-03-15"
+    }
+  },
+  {
+    "name": "Boston University School of Law",
+    "slug": "boston-university-school-of-law",
+    "type": "law_school",
+    "location": "Boston, MA",
+    "ranking": 22,
+    "deadlines": {
+      "regular_decision": "2026-03-15"
+    }
+  },
+  {
+    "name": "Emory University School of Law",
+    "slug": "emory-university-school-of-law",
+    "type": "law_school",
+    "location": "Atlanta, GA",
+    "ranking": 23,
+    "deadlines": {
+      "regular_decision": "2026-03-15"
+    }
+  },
+  {
+    "name": "University of Iowa College of Law",
+    "slug": "university-of-iowa-college-of-law",
+    "type": "law_school",
+    "location": "Iowa City, IA",
+    "ranking": 24,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "University of Alabama School of Law",
+    "slug": "university-of-alabama-school-of-law",
+    "type": "law_school",
+    "location": "Tuscaloosa, AL",
+    "ranking": 25,
+    "deadlines": {
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "University of Georgia School of Law",
+    "slug": "university-of-georgia-school-of-law",
+    "type": "law_school",
+    "location": "Athens, GA",
+    "ranking": 26,
+    "deadlines": {
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "Wake Forest University School of Law",
+    "slug": "wake-forest-university-school-of-law",
+    "type": "law_school",
+    "location": "Winston-Salem, NC",
+    "ranking": 27,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "University of Wisconsin Law School",
+    "slug": "university-of-wisconsin-law-school",
+    "type": "law_school",
+    "location": "Madison, WI",
+    "ranking": 28,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Ohio State University Moritz College of Law",
+    "slug": "ohio-state-university-moritz-college-of-law",
+    "type": "law_school",
+    "location": "Columbus, OH",
+    "ranking": 29,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "University of Illinois College of Law",
+    "slug": "university-of-illinois-college-of-law",
+    "type": "law_school",
+    "location": "Champaign, IL",
+    "ranking": 30,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Indiana University Maurer School of Law",
+    "slug": "indiana-university-maurer-school-of-law",
+    "type": "law_school",
+    "location": "Bloomington, IN",
+    "ranking": 31,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "University of California Davis School of Law",
+    "slug": "university-of-california-davis-school-of-law",
+    "type": "law_school",
+    "location": "Davis, CA",
+    "ranking": 32,
+    "deadlines": {
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "University of California Irvine School of Law",
+    "slug": "university-of-california-irvine-school-of-law",
+    "type": "law_school",
+    "location": "Irvine, CA",
+    "ranking": 33,
+    "deadlines": {
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "University of Colorado Law School",
+    "slug": "university-of-colorado-law-school",
+    "type": "law_school",
+    "location": "Boulder, CO",
+    "ranking": 34,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "University of North Carolina School of Law",
+    "slug": "university-of-north-carolina-school-of-law",
+    "type": "law_school",
+    "location": "Chapel Hill, NC",
+    "ranking": 35,
+    "deadlines": {
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "University of Southern California Gould School of Law",
+    "slug": "university-of-southern-california-gould-school-of-law",
+    "type": "law_school",
+    "location": "Los Angeles, CA",
+    "ranking": 36,
+    "deadlines": {
+      "early_decision": "2025-11-15",
+      "regular_decision": "2026-02-15"
+    }
+  },
+  {
+    "name": "Fordham University School of Law",
+    "slug": "fordham-university-school-of-law",
+    "type": "law_school",
+    "location": "New York, NY",
+    "ranking": 37,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Arizona State University Sandra Day O'Connor College of Law",
+    "slug": "arizona-state-university-sandra-day-oconnor-college-of-law",
+    "type": "law_school",
+    "location": "Tempe, AZ",
+    "ranking": 38,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Florida State University College of Law",
+    "slug": "florida-state-university-college-of-law",
+    "type": "law_school",
+    "location": "Tallahassee, FL",
+    "ranking": 39,
+    "deadlines": {
+      "regular_decision": "2026-03-15"
+    }
+  },
+  {
+    "name": "George Mason University Antonin Scalia Law School",
+    "slug": "george-mason-university-antonin-scalia-law-school",
+    "type": "law_school",
+    "location": "Arlington, VA",
+    "ranking": 40,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "University of Florida Levin College of Law",
+    "slug": "university-of-florida-levin-college-of-law",
+    "type": "law_school",
+    "location": "Gainesville, FL",
+    "ranking": 41,
+    "deadlines": {
+      "regular_decision": "2026-03-15"
+    }
+  },
+  {
+    "name": "University of Washington School of Law",
+    "slug": "university-of-washington-school-of-law",
+    "type": "law_school",
+    "location": "Seattle, WA",
+    "ranking": 42,
+    "deadlines": {
+      "regular_decision": "2026-03-15"
+    }
+  },
+  {
+    "name": "Tulane University Law School",
+    "slug": "tulane-university-law-school",
+    "type": "law_school",
+    "location": "New Orleans, LA",
+    "ranking": 43,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Boston College Law School",
+    "slug": "boston-college-law-school",
+    "type": "law_school",
+    "location": "Newton, MA",
+    "ranking": 44,
+    "deadlines": {
+      "regular_decision": "2026-03-15"
+    }
+  },
+  {
+    "name": "William & Mary Law School",
+    "slug": "william-and-mary-law-school",
+    "type": "law_school",
+    "location": "Williamsburg, VA",
+    "ranking": 45,
+    "deadlines": {
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "Brigham Young University J. Reuben Clark Law School",
+    "slug": "brigham-young-university-j-reuben-clark-law-school",
+    "type": "law_school",
+    "location": "Provo, UT",
+    "ranking": 46,
+    "deadlines": {
+      "regular_decision": "2026-02-15"
+    }
+  },
+  {
+    "name": "University of Arizona James E. Rogers College of Law",
+    "slug": "university-of-arizona-james-e-rogers-college-of-law",
+    "type": "law_school",
+    "location": "Tucson, AZ",
+    "ranking": 47,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Southern Methodist University Dedman School of Law",
+    "slug": "southern-methodist-university-dedman-school-of-law",
+    "type": "law_school",
+    "location": "Dallas, TX",
+    "ranking": 48,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Penn State Dickinson Law",
+    "slug": "penn-state-dickinson-law",
+    "type": "law_school",
+    "location": "Carlisle, PA",
+    "ranking": 49,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "University of Maryland Francis King Carey School of Law",
+    "slug": "university-of-maryland-francis-king-carey-school-of-law",
+    "type": "law_school",
+    "location": "Baltimore, MD",
+    "ranking": 50,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "University of Connecticut School of Law",
+    "slug": "university-of-connecticut-school-of-law",
+    "type": "law_school",
+    "location": "Hartford, CT",
+    "ranking": 51,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "University of Utah S.J. Quinney College of Law",
+    "slug": "university-of-utah-sj-quinney-college-of-law",
+    "type": "law_school",
+    "location": "Salt Lake City, UT",
+    "ranking": 52,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "University of Kentucky College of Law",
+    "slug": "university-of-kentucky-college-of-law",
+    "type": "law_school",
+    "location": "Lexington, KY",
+    "ranking": 53,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Case Western Reserve University School of Law",
+    "slug": "case-western-reserve-university-school-of-law",
+    "type": "law_school",
+    "location": "Cleveland, OH",
+    "ranking": 54,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Temple University Beasley School of Law",
+    "slug": "temple-university-beasley-school-of-law",
+    "type": "law_school",
+    "location": "Philadelphia, PA",
+    "ranking": 55,
+    "deadlines": {
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "University of Tennessee College of Law",
+    "slug": "university-of-tennessee-college-of-law",
+    "type": "law_school",
+    "location": "Knoxville, TN",
+    "ranking": 56,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "University of Houston Law Center",
+    "slug": "university-of-houston-law-center",
+    "type": "law_school",
+    "location": "Houston, TX",
+    "ranking": 57,
+    "deadlines": {
+      "regular_decision": "2026-02-15"
+    }
+  },
+  {
+    "name": "Loyola University Chicago School of Law",
+    "slug": "loyola-university-chicago-school-of-law",
+    "type": "law_school",
+    "location": "Chicago, IL",
+    "ranking": 58,
+    "deadlines": {
+      "regular_decision": "2026-04-15"
+    }
+  },
+  {
+    "name": "University of Oregon School of Law",
+    "slug": "university-of-oregon-school-of-law",
+    "type": "law_school",
+    "location": "Eugene, OR",
+    "ranking": 59,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "DePaul University College of Law",
+    "slug": "depaul-university-college-of-law",
+    "type": "law_school",
+    "location": "Chicago, IL",
+    "ranking": 60,
+    "deadlines": {
+      "regular_decision": "2026-04-15"
+    }
+  },
+  {
+    "name": "Pepperdine Caruso School of Law",
+    "slug": "pepperdine-caruso-school-of-law",
+    "type": "law_school",
+    "location": "Malibu, CA",
+    "ranking": 61,
+    "deadlines": {
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "University of Louisville Louis D. Brandeis School of Law",
+    "slug": "university-of-louisville-louis-d-brandeis-school-of-law",
+    "type": "law_school",
+    "location": "Louisville, KY",
+    "ranking": 62,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Marquette University Law School",
+    "slug": "marquette-university-law-school",
+    "type": "law_school",
+    "location": "Milwaukee, WI",
+    "ranking": 63,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Louisiana State University Paul M. Hebert Law Center",
+    "slug": "louisiana-state-university-paul-m-hebert-law-center",
+    "type": "law_school",
+    "location": "Baton Rouge, LA",
+    "ranking": 64,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "University of New Mexico School of Law",
+    "slug": "university-of-new-mexico-school-of-law",
+    "type": "law_school",
+    "location": "Albuquerque, NM",
+    "ranking": 65,
+    "deadlines": {
+      "regular_decision": "2026-03-15"
+    }
+  },
+  {
+    "name": "West Virginia University College of Law",
+    "slug": "west-virginia-university-college-of-law",
+    "type": "law_school",
+    "location": "Morgantown, WV",
+    "ranking": 66,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Seton Hall University School of Law",
+    "slug": "seton-hall-university-school-of-law",
+    "type": "law_school",
+    "location": "Newark, NJ",
+    "ranking": 67,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "University of Arkansas School of Law",
+    "slug": "university-of-arkansas-school-of-law",
+    "type": "law_school",
+    "location": "Fayetteville, AR",
+    "ranking": 68,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "University of Richmond School of Law",
+    "slug": "university-of-richmond-school-of-law",
+    "type": "law_school",
+    "location": "Richmond, VA",
+    "ranking": 69,
+    "deadlines": {
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "University of South Carolina School of Law",
+    "slug": "university-of-south-carolina-school-of-law",
+    "type": "law_school",
+    "location": "Columbia, SC",
+    "ranking": 70,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Penn State Law",
+    "slug": "penn-state-law",
+    "type": "law_school",
+    "location": "University Park, PA",
+    "ranking": 71,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Rutgers Law School",
+    "slug": "rutgers-law-school",
+    "type": "law_school",
+    "location": "Newark, NJ",
+    "ranking": 72,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Wayne State University Law School",
+    "slug": "wayne-state-university-law-school",
+    "type": "law_school",
+    "location": "Detroit, MI",
+    "ranking": 73,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "University of Nebraska College of Law",
+    "slug": "university-of-nebraska-college-of-law",
+    "type": "law_school",
+    "location": "Lincoln, NE",
+    "ranking": 74,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Lewis & Clark Law School",
+    "slug": "lewis-and-clark-law-school",
+    "type": "law_school",
+    "location": "Portland, OR",
+    "ranking": 75,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "University of Miami School of Law",
+    "slug": "university-of-miami-school-of-law",
+    "type": "law_school",
+    "location": "Coral Gables, FL",
+    "ranking": 76,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Brooklyn Law School",
+    "slug": "brooklyn-law-school",
+    "type": "law_school",
+    "location": "Brooklyn, NY",
+    "ranking": 77,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "St. Louis University School of Law",
+    "slug": "st-louis-university-school-of-law",
+    "type": "law_school",
+    "location": "St. Louis, MO",
+    "ranking": 78,
+    "deadlines": {
+      "regular_decision": "2026-04-15"
+    }
+  },
+  {
+    "name": "University of Mississippi School of Law",
+    "slug": "university-of-mississippi-school-of-law",
+    "type": "law_school",
+    "location": "Oxford, MS",
+    "ranking": 79,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "University of Oklahoma College of Law",
+    "slug": "university-of-oklahoma-college-of-law",
+    "type": "law_school",
+    "location": "Norman, OK",
+    "ranking": 80,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "American University Washington College of Law",
+    "slug": "american-university-washington-college-of-law",
+    "type": "law_school",
+    "location": "Washington, DC",
+    "ranking": 81,
+    "deadlines": {
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "University of Kansas School of Law",
+    "slug": "university-of-kansas-school-of-law",
+    "type": "law_school",
+    "location": "Lawrence, KS",
+    "ranking": 82,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Villanova University Charles Widger School of Law",
+    "slug": "villanova-university-charles-widger-school-of-law",
+    "type": "law_school",
+    "location": "Villanova, PA",
+    "ranking": 83,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "University of San Diego School of Law",
+    "slug": "university-of-san-diego-school-of-law",
+    "type": "law_school",
+    "location": "San Diego, CA",
+    "ranking": 84,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "University of Cincinnati College of Law",
+    "slug": "university-of-cincinnati-college-of-law",
+    "type": "law_school",
+    "location": "Cincinnati, OH",
+    "ranking": 85,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Loyola Law School Los Angeles",
+    "slug": "loyola-law-school-los-angeles",
+    "type": "law_school",
+    "location": "Los Angeles, CA",
+    "ranking": 86,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Suffolk University Law School",
+    "slug": "suffolk-university-law-school",
+    "type": "law_school",
+    "location": "Boston, MA",
+    "ranking": 87,
+    "deadlines": {
+      "regular_decision": "2026-04-15"
+    }
+  },
+  {
+    "name": "Drake University Law School",
+    "slug": "drake-university-law-school",
+    "type": "law_school",
+    "location": "Des Moines, IA",
+    "ranking": 88,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Missouri University School of Law",
+    "slug": "missouri-university-school-of-law",
+    "type": "law_school",
+    "location": "Columbia, MO",
+    "ranking": 89,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "University of Hawaii William S. Richardson School of Law",
+    "slug": "university-of-hawaii-william-s-richardson-school-of-law",
+    "type": "law_school",
+    "location": "Honolulu, HI",
+    "ranking": 90,
+    "deadlines": {
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "University of Denver Sturm College of Law",
+    "slug": "university-of-denver-sturm-college-of-law",
+    "type": "law_school",
+    "location": "Denver, CO",
+    "ranking": 91,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Gonzaga University School of Law",
+    "slug": "gonzaga-university-school-of-law",
+    "type": "law_school",
+    "location": "Spokane, WA",
+    "ranking": 92,
+    "deadlines": {
+      "regular_decision": "2026-04-15"
+    }
+  },
+  {
+    "name": "University of Akron School of Law",
+    "slug": "university-of-akron-school-of-law",
+    "type": "law_school",
+    "location": "Akron, OH",
+    "ranking": 93,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Howard University School of Law",
+    "slug": "howard-university-school-of-law",
+    "type": "law_school",
+    "location": "Washington, DC",
+    "ranking": 94,
+    "deadlines": {
+      "regular_decision": "2026-03-15"
+    }
+  },
+  {
+    "name": "Texas A&M University School of Law",
+    "slug": "texas-a-and-m-university-school-of-law",
+    "type": "law_school",
+    "location": "Fort Worth, TX",
+    "ranking": 95,
+    "deadlines": {
+      "regular_decision": "2026-03-15"
+    }
+  },
+  {
+    "name": "Northeastern University School of Law",
+    "slug": "northeastern-university-school-of-law",
+    "type": "law_school",
+    "location": "Boston, MA",
+    "ranking": 96,
+    "deadlines": {
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "St. John's University School of Law",
+    "slug": "st-johns-university-school-of-law",
+    "type": "law_school",
+    "location": "Jamaica, NY",
+    "ranking": 97,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Hofstra University Maurice A. Deane School of Law",
+    "slug": "hofstra-university-maurice-a-deane-school-of-law",
+    "type": "law_school",
+    "location": "Hempstead, NY",
+    "ranking": 98,
+    "deadlines": {
+      "regular_decision": "2026-04-15"
+    }
+  },
+  {
+    "name": "University of Idaho College of Law",
+    "slug": "university-of-idaho-college-of-law",
+    "type": "law_school",
+    "location": "Moscow, ID",
+    "ranking": 99,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Campbell University Norman Adrian Wiggins School of Law",
+    "slug": "campbell-university-norman-adrian-wiggins-school-of-law",
+    "type": "law_school",
+    "location": "Raleigh, NC",
+    "ranking": 100,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "University of South Dakota School of Law",
+    "slug": "university-of-south-dakota-school-of-law",
+    "type": "law_school",
+    "location": "Vermillion, SD",
+    "ranking": 101,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Oklahoma City University School of Law",
+    "slug": "oklahoma-city-university-school-of-law",
+    "type": "law_school",
+    "location": "Oklahoma City, OK",
+    "ranking": 102,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "University of Detroit Mercy School of Law",
+    "slug": "university-of-detroit-mercy-school-of-law",
+    "type": "law_school",
+    "location": "Detroit, MI",
+    "ranking": 103,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Duquesne University School of Law",
+    "slug": "duquesne-university-school-of-law",
+    "type": "law_school",
+    "location": "Pittsburgh, PA",
+    "ranking": 104,
+    "deadlines": {
+      "regular_decision": "2026-04-15"
+    }
+  },
+  {
+    "name": "Creighton University School of Law",
+    "slug": "creighton-university-school-of-law",
+    "type": "law_school",
+    "location": "Omaha, NE",
+    "ranking": 105,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Pace University School of Law",
+    "slug": "pace-university-school-of-law",
+    "type": "law_school",
+    "location": "White Plains, NY",
+    "ranking": 106,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "University of Missouri-Kansas City School of Law",
+    "slug": "university-of-missouri-kansas-city-school-of-law",
+    "type": "law_school",
+    "location": "Kansas City, MO",
+    "ranking": 107,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Capital University Law School",
+    "slug": "capital-university-law-school",
+    "type": "law_school",
+    "location": "Columbus, OH",
+    "ranking": 108,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "University of Dayton School of Law",
+    "slug": "university-of-dayton-school-of-law",
+    "type": "law_school",
+    "location": "Dayton, OH",
+    "ranking": 109,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Widener University Commonwealth Law School",
+    "slug": "widener-university-commonwealth-law-school",
+    "type": "law_school",
+    "location": "Harrisburg, PA",
+    "ranking": 110,
+    "deadlines": {
+      "regular_decision": "2026-05-15"
+    }
+  },
+  {
+    "name": "New England Law Boston",
+    "slug": "new-england-law-boston",
+    "type": "law_school",
+    "location": "Boston, MA",
+    "ranking": 111,
+    "deadlines": {
+      "regular_decision": "2026-05-15"
+    }
+  },
+  {
+    "name": "University of Baltimore School of Law",
+    "slug": "university-of-baltimore-school-of-law",
+    "type": "law_school",
+    "location": "Baltimore, MD",
+    "ranking": 112,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Golden Gate University School of Law",
+    "slug": "golden-gate-university-school-of-law",
+    "type": "law_school",
+    "location": "San Francisco, CA",
+    "ranking": 113,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Quinnipiac University School of Law",
+    "slug": "quinnipiac-university-school-of-law",
+    "type": "law_school",
+    "location": "Hamden, CT",
+    "ranking": 114,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Samford University Cumberland School of Law",
+    "slug": "samford-university-cumberland-school-of-law",
+    "type": "law_school",
+    "location": "Birmingham, AL",
+    "ranking": 115,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Florida International University College of Law",
+    "slug": "florida-international-university-college-of-law",
+    "type": "law_school",
+    "location": "Miami, FL",
+    "ranking": 116,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Baylor University School of Law",
+    "slug": "baylor-university-school-of-law",
+    "type": "law_school",
+    "location": "Waco, TX",
+    "ranking": 117,
+    "deadlines": {
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "University of Montana Alexander Blewett III School of Law",
+    "slug": "university-of-montana-alexander-blewett-iii-school-of-law",
+    "type": "law_school",
+    "location": "Missoula, MT",
+    "ranking": 118,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "University of North Dakota School of Law",
+    "slug": "university-of-north-dakota-school-of-law",
+    "type": "law_school",
+    "location": "Grand Forks, ND",
+    "ranking": 119,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "University of Wyoming College of Law",
+    "slug": "university-of-wyoming-college-of-law",
+    "type": "law_school",
+    "location": "Laramie, WY",
+    "ranking": 120,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "South Texas College of Law Houston",
+    "slug": "south-texas-college-of-law-houston",
+    "type": "law_school",
+    "location": "Houston, TX",
+    "ranking": 121,
+    "deadlines": {
+      "regular_decision": "2026-04-15"
+    }
+  },
+  {
+    "name": "Charlotte School of Law",
+    "slug": "charlotte-school-of-law",
+    "type": "law_school",
+    "location": "Charlotte, NC",
+    "ranking": 122,
+    "deadlines": {
+      "regular_decision": "2026-05-15"
+    }
+  },
+  {
+    "name": "Touro University Jacob D. Fuchsberg Law Center",
+    "slug": "touro-university-jacob-d-fuchsberg-law-center",
+    "type": "law_school",
+    "location": "Central Islip, NY",
+    "ranking": 123,
+    "deadlines": {
+      "regular_decision": "2026-05-15"
+    }
+  },
+  {
+    "name": "University of the Pacific McGeorge School of Law",
+    "slug": "university-of-the-pacific-mcgeorge-school-of-law",
+    "type": "law_school",
+    "location": "Sacramento, CA",
+    "ranking": 124,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Santa Clara University School of Law",
+    "slug": "santa-clara-university-school-of-law",
+    "type": "law_school",
+    "location": "Santa Clara, CA",
+    "ranking": 125,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "University of New Hampshire Franklin Pierce School of Law",
+    "slug": "university-of-new-hampshire-franklin-pierce-school-of-law",
+    "type": "law_school",
+    "location": "Concord, NH",
+    "ranking": 126,
+    "deadlines": {
+      "regular_decision": "2026-04-15"
+    }
+  },
+  {
+    "name": "Roger Williams University School of Law",
+    "slug": "roger-williams-university-school-of-law",
+    "type": "law_school",
+    "location": "Bristol, RI",
+    "ranking": 127,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Vermont Law School",
+    "slug": "vermont-law-school",
+    "type": "law_school",
+    "location": "South Royalton, VT",
+    "ranking": 128,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Illinois Tech Chicago-Kent College of Law",
+    "slug": "illinois-tech-chicago-kent-college-of-law",
+    "type": "law_school",
+    "location": "Chicago, IL",
+    "ranking": 129,
+    "deadlines": {
+      "regular_decision": "2026-04-15"
+    }
+  },
+  {
+    "name": "Loyola University New Orleans College of Law",
+    "slug": "loyola-university-new-orleans-college-of-law",
+    "type": "law_school",
+    "location": "New Orleans, LA",
+    "ranking": 130,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Barry University Dwayne O. Andreas School of Law",
+    "slug": "barry-university-dwayne-o-andreas-school-of-law",
+    "type": "law_school",
+    "location": "Orlando, FL",
+    "ranking": 131,
+    "deadlines": {
+      "regular_decision": "2026-05-15"
+    }
+  },
+  {
+    "name": "Nova Southeastern University Shepard Broad College of Law",
+    "slug": "nova-southeastern-university-shepard-broad-college-of-law",
+    "type": "law_school",
+    "location": "Fort Lauderdale, FL",
+    "ranking": 132,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "St. Thomas University School of Law",
+    "slug": "st-thomas-university-school-of-law",
+    "type": "law_school",
+    "location": "Miami Gardens, FL",
+    "ranking": 133,
+    "deadlines": {
+      "regular_decision": "2026-05-15"
+    }
+  },
+  {
+    "name": "University of St. Thomas School of Law",
+    "slug": "university-of-st-thomas-school-of-law",
+    "type": "law_school",
+    "location": "Minneapolis, MN",
+    "ranking": 134,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Washburn University School of Law",
+    "slug": "washburn-university-school-of-law",
+    "type": "law_school",
+    "location": "Topeka, KS",
+    "ranking": 135,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Mercer University Walter F. George School of Law",
+    "slug": "mercer-university-walter-f-george-school-of-law",
+    "type": "law_school",
+    "location": "Macon, GA",
+    "ranking": 136,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "University of Memphis Cecil C. Humphreys School of Law",
+    "slug": "university-of-memphis-cecil-c-humphreys-school-of-law",
+    "type": "law_school",
+    "location": "Memphis, TN",
+    "ranking": 137,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Mitchell Hamline School of Law",
+    "slug": "mitchell-hamline-school-of-law",
+    "type": "law_school",
+    "location": "St. Paul, MN",
+    "ranking": 138,
+    "deadlines": {
+      "regular_decision": "2026-05-15"
+    }
+  },
+  {
+    "name": "Seattle University School of Law",
+    "slug": "seattle-university-school-of-law",
+    "type": "law_school",
+    "location": "Seattle, WA",
+    "ranking": 139,
+    "deadlines": {
+      "regular_decision": "2026-04-15"
+    }
+  },
+  {
+    "name": "Northern Illinois University College of Law",
+    "slug": "northern-illinois-university-college-of-law",
+    "type": "law_school",
+    "location": "DeKalb, IL",
+    "ranking": 140,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Willamette University College of Law",
+    "slug": "willamette-university-college-of-law",
+    "type": "law_school",
+    "location": "Salem, OR",
+    "ranking": 141,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Hamline University School of Law",
+    "slug": "hamline-university-school-of-law",
+    "type": "law_school",
+    "location": "St. Paul, MN",
+    "ranking": 142,
+    "deadlines": {
+      "regular_decision": "2026-05-15"
+    }
+  },
+  {
+    "name": "Western New England University School of Law",
+    "slug": "western-new-england-university-school-of-law",
+    "type": "law_school",
+    "location": "Springfield, MA",
+    "ranking": 143,
+    "deadlines": {
+      "regular_decision": "2026-05-15"
+    }
+  },
+  {
+    "name": "Southwestern Law School",
+    "slug": "southwestern-law-school-los-angeles",
+    "type": "law_school",
+    "location": "Los Angeles, CA",
+    "ranking": 144,
+    "deadlines": {
+      "regular_decision": "2026-05-15"
+    }
+  },
+  {
+    "name": "Texas Southern University Thurgood Marshall School of Law",
+    "slug": "texas-southern-university-thurgood-marshall-school-of-law",
+    "type": "law_school",
+    "location": "Houston, TX",
+    "ranking": 145,
+    "deadlines": {
+      "regular_decision": "2026-04-15"
+    }
+  },
+  {
+    "name": "Southern University Law Center",
+    "slug": "southern-university-law-center",
+    "type": "law_school",
+    "location": "Baton Rouge, LA",
+    "ranking": 146,
+    "deadlines": {
+      "regular_decision": "2026-04-15"
+    }
+  },
+  {
+    "name": "North Carolina Central University School of Law",
+    "slug": "north-carolina-central-university-school-of-law",
+    "type": "law_school",
+    "location": "Durham, NC",
+    "ranking": 147,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Pontifical Catholic University of Puerto Rico School of Law",
+    "slug": "pontifical-catholic-university-of-puerto-rico-school-of-law",
+    "type": "law_school",
+    "location": "Ponce, PR",
+    "ranking": 148,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Inter American University of Puerto Rico School of Law",
+    "slug": "inter-american-university-of-puerto-rico-school-of-law",
+    "type": "law_school",
+    "location": "San Juan, PR",
+    "ranking": 149,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "University of Puerto Rico School of Law",
+    "slug": "university-of-puerto-rico-school-of-law",
+    "type": "law_school",
+    "location": "San Juan, PR",
+    "ranking": 150,
+    "deadlines": {
+      "regular_decision": "2026-03-15"
+    }
+  },
+  {
+    "name": "Faulkner University Thomas Goode Jones School of Law",
+    "slug": "faulkner-university-thomas-goode-jones-school-of-law",
+    "type": "law_school",
+    "location": "Montgomery, AL",
+    "ranking": 151,
+    "deadlines": {
+      "regular_decision": "2026-05-15"
+    }
+  },
+  {
+    "name": "University of Nevada Las Vegas William S. Boyd School of Law",
+    "slug": "university-of-nevada-las-vegas-william-s-boyd-school-of-law",
+    "type": "law_school",
+    "location": "Las Vegas, NV",
+    "ranking": 152,
+    "deadlines": {
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Appalachian School of Law",
+    "slug": "appalachian-school-of-law",
+    "type": "law_school",
+    "location": "Grundy, VA",
+    "ranking": 153,
+    "deadlines": {
+      "regular_decision": "2026-05-15"
+    }
+  },
+  {
+    "name": "Atlanta's John Marshall Law School",
+    "slug": "atlantas-john-marshall-law-school",
+    "type": "law_school",
+    "location": "Atlanta, GA",
+    "ranking": 154,
+    "deadlines": {
+      "regular_decision": "2026-05-15"
+    }
+  },
+  {
+    "name": "Western State College of Law at Argosy University",
+    "slug": "western-state-college-of-law",
+    "type": "law_school",
+    "location": "Irvine, CA",
+    "ranking": 155,
+    "deadlines": {
+      "regular_decision": "2026-05-15"
+    }
+  },
+  {
+    "name": "Ave Maria School of Law",
+    "slug": "ave-maria-school-of-law",
+    "type": "law_school",
+    "location": "Naples, FL",
+    "ranking": 156,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Charleston School of Law",
+    "slug": "charleston-school-of-law",
+    "type": "law_school",
+    "location": "Charleston, SC",
+    "ranking": 157,
+    "deadlines": {
+      "regular_decision": "2026-05-15"
+    }
+  },
+  {
+    "name": "Valparaiso University School of Law",
+    "slug": "valparaiso-university-school-of-law",
+    "type": "law_school",
+    "location": "Valparaiso, IN",
+    "ranking": 158,
+    "deadlines": {
+      "regular_decision": "2026-05-15"
+    }
+  },
+  {
+    "name": "University of Arkansas at Little Rock William H. Bowen School of Law",
+    "slug": "university-of-arkansas-at-little-rock-william-h-bowen-school-of-law",
+    "type": "law_school",
+    "location": "Little Rock, AR",
+    "ranking": 159,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Ohio Northern University Claude W. Pettit College of Law",
+    "slug": "ohio-northern-university-claude-w-pettit-college-of-law",
+    "type": "law_school",
+    "location": "Ada, OH",
+    "ranking": 160,
+    "deadlines": {
+      "regular_decision": "2026-05-15"
+    }
+  },
+  {
+    "name": "Regent University School of Law",
+    "slug": "regent-university-school-of-law",
+    "type": "law_school",
+    "location": "Virginia Beach, VA",
+    "ranking": 161,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Liberty University School of Law",
+    "slug": "liberty-university-school-of-law",
+    "type": "law_school",
+    "location": "Lynchburg, VA",
+    "ranking": 162,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Mississippi College School of Law",
+    "slug": "mississippi-college-school-of-law",
+    "type": "law_school",
+    "location": "Jackson, MS",
+    "ranking": 163,
+    "deadlines": {
+      "regular_decision": "2026-05-15"
+    }
+  },
+  {
+    "name": "Whittier Law School",
+    "slug": "whittier-law-school",
+    "type": "law_school",
+    "location": "Costa Mesa, CA",
+    "ranking": 164,
+    "deadlines": {
+      "regular_decision": "2026-05-15"
+    }
+  },
+  {
+    "name": "Thomas Jefferson School of Law",
+    "slug": "thomas-jefferson-school-of-law",
+    "type": "law_school",
+    "location": "San Diego, CA",
+    "ranking": 165,
+    "deadlines": {
+      "regular_decision": "2026-06-01"
+    }
+  },
+  {
+    "name": "John Marshall Law School",
+    "slug": "john-marshall-law-school-chicago",
+    "type": "law_school",
+    "location": "Chicago, IL",
+    "ranking": 166,
+    "deadlines": {
+      "regular_decision": "2026-05-15"
+    }
+  },
+  {
+    "name": "Indiana University Robert H. McKinney School of Law",
+    "slug": "indiana-university-robert-h-mckinney-school-of-law",
+    "type": "law_school",
+    "location": "Indianapolis, IN",
+    "ranking": 167,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Stetson University College of Law",
+    "slug": "stetson-university-college-of-law",
+    "type": "law_school",
+    "location": "Gulfport, FL",
+    "ranking": 168,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Albany Law School",
+    "slug": "albany-law-school",
+    "type": "law_school",
+    "location": "Albany, NY",
+    "ranking": 169,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "St. Mary's University School of Law",
+    "slug": "st-marys-university-school-of-law",
+    "type": "law_school",
+    "location": "San Antonio, TX",
+    "ranking": 170,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "University of Tulsa College of Law",
+    "slug": "university-of-tulsa-college-of-law",
+    "type": "law_school",
+    "location": "Tulsa, OK",
+    "ranking": 171,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Chapman University Dale E. Fowler School of Law",
+    "slug": "chapman-university-dale-e-fowler-school-of-law",
+    "type": "law_school",
+    "location": "Orange, CA",
+    "ranking": 172,
+    "deadlines": {
+      "regular_decision": "2026-05-15"
+    }
+  },
+  {
+    "name": "Widener University Delaware Law School",
+    "slug": "widener-university-delaware-law-school",
+    "type": "law_school",
+    "location": "Wilmington, DE",
+    "ranking": 173,
+    "deadlines": {
+      "regular_decision": "2026-05-15"
+    }
+  },
+  {
+    "name": "Elon University School of Law",
+    "slug": "elon-university-school-of-law",
+    "type": "law_school",
+    "location": "Greensboro, NC",
+    "ranking": 174,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Florida A&M University College of Law",
+    "slug": "florida-a-and-m-university-college-of-law",
+    "type": "law_school",
+    "location": "Orlando, FL",
+    "ranking": 175,
+    "deadlines": {
+      "regular_decision": "2026-04-15"
+    }
+  },
+  {
+    "name": "Western Michigan University Thomas M. Cooley Law School",
+    "slug": "western-michigan-university-thomas-m-cooley-law-school",
+    "type": "law_school",
+    "location": "Lansing, MI",
+    "ranking": 176,
+    "deadlines": {
+      "regular_decision": "2026-06-01"
+    }
+  },
+  {
+    "name": "University of Maine School of Law",
+    "slug": "university-of-maine-school-of-law",
+    "type": "law_school",
+    "location": "Portland, ME",
+    "ranking": 177,
+    "deadlines": {
+      "regular_decision": "2026-04-15"
+    }
+  },
+  {
+    "name": "Syracuse University College of Law",
+    "slug": "syracuse-university-college-of-law",
+    "type": "law_school",
+    "location": "Syracuse, NY",
+    "ranking": 178,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Belmont University College of Law",
+    "slug": "belmont-university-college-of-law",
+    "type": "law_school",
+    "location": "Nashville, TN",
+    "ranking": 179,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Texas Tech University School of Law",
+    "slug": "texas-tech-university-school-of-law",
+    "type": "law_school",
+    "location": "Lubbock, TX",
+    "ranking": 180,
+    "deadlines": {
+      "regular_decision": "2026-03-15"
+    }
+  },
+  {
+    "name": "University of Toledo College of Law",
+    "slug": "university-of-toledo-college-of-law",
+    "type": "law_school",
+    "location": "Toledo, OH",
+    "ranking": 181,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Southern Illinois University School of Law",
+    "slug": "southern-illinois-university-school-of-law",
+    "type": "law_school",
+    "location": "Carbondale, IL",
+    "ranking": 182,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "University of the District of Columbia David A. Clarke School of Law",
+    "slug": "university-of-the-district-of-columbia-david-a-clarke-school-of-law",
+    "type": "law_school",
+    "location": "Washington, DC",
+    "ranking": 183,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "California Western School of Law",
+    "slug": "california-western-school-of-law",
+    "type": "law_school",
+    "location": "San Diego, CA",
+    "ranking": 184,
+    "deadlines": {
+      "regular_decision": "2026-05-15"
+    }
+  },
+  {
+    "name": "University of La Verne College of Law",
+    "slug": "university-of-la-verne-college-of-law",
+    "type": "law_school",
+    "location": "Ontario, CA",
+    "ranking": 185,
+    "deadlines": {
+      "regular_decision": "2026-05-15"
+    }
+  },
+  {
+    "name": "University of California College of the Law San Francisco",
+    "slug": "university-of-california-college-of-the-law-san-francisco",
+    "type": "law_school",
+    "location": "San Francisco, CA",
+    "ranking": 186,
+    "deadlines": {
+      "regular_decision": "2026-06-01"
+    }
+  },
+  {
+    "name": "Concordia University School of Law",
+    "slug": "concordia-university-school-of-law",
+    "type": "law_school",
+    "location": "Boise, ID",
+    "ranking": 187,
+    "deadlines": {
+      "regular_decision": "2026-05-15"
+    }
+  },
+  {
+    "name": "Northern Kentucky University Salmon P. Chase College of Law",
+    "slug": "northern-kentucky-university-salmon-p-chase-college-of-law",
+    "type": "law_school",
+    "location": "Highland Heights, KY",
+    "ranking": 188,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Loyola University Maryland Sellinger School of Law",
+    "slug": "loyola-university-maryland-sellinger-school-of-law",
+    "type": "law_school",
+    "location": "Baltimore, MD",
+    "ranking": 189,
+    "deadlines": {
+      "regular_decision": "2026-06-01"
+    }
+  },
+  {
+    "name": "Drexel University Thomas R. Kline School of Law",
+    "slug": "drexel-university-thomas-r-kline-school-of-law",
+    "type": "law_school",
+    "location": "Philadelphia, PA",
+    "ranking": 190,
+    "deadlines": {
+      "regular_decision": "2026-05-15"
+    }
+  },
+  {
+    "name": "University of Guam School of Law",
+    "slug": "university-of-guam-school-of-law",
+    "type": "law_school",
+    "location": "Mangilao, GU",
+    "ranking": 191,
+    "deadlines": {
+      "regular_decision": "2026-04-15"
+    }
+  },
+  {
+    "name": "Cooley Law School Tampa Bay",
+    "slug": "cooley-law-school-tampa-bay",
+    "type": "law_school",
+    "location": "Tampa, FL",
+    "ranking": 192,
+    "deadlines": {
+      "regular_decision": "2026-06-01"
+    }
+  },
+  {
+    "name": "Florida Coastal School of Law",
+    "slug": "florida-coastal-school-of-law",
+    "type": "law_school",
+    "location": "Jacksonville, FL",
+    "ranking": 193,
+    "deadlines": {
+      "regular_decision": "2026-06-01"
+    }
+  },
+  {
+    "name": "Lincoln Memorial University Duncan School of Law",
+    "slug": "lincoln-memorial-university-duncan-school-of-law",
+    "type": "law_school",
+    "location": "Knoxville, TN",
+    "ranking": 194,
+    "deadlines": {
+      "regular_decision": "2026-05-15"
+    }
+  },
+  {
+    "name": "University of Nevada Reno School of Law",
+    "slug": "university-of-nevada-reno-school-of-law",
+    "type": "law_school",
+    "location": "Reno, NV",
+    "ranking": 195,
+    "deadlines": {
+      "regular_decision": "2026-04-15"
+    }
+  },
+  {
+    "name": "Savannah Law School",
+    "slug": "savannah-law-school",
+    "type": "law_school",
+    "location": "Savannah, GA",
+    "ranking": 196,
+    "deadlines": {
+      "regular_decision": "2026-06-01"
+    }
+  },
+  {
+    "name": "Lakeland University School of Law",
+    "slug": "lakeland-university-school-of-law",
+    "type": "law_school",
+    "location": "Plymouth, WI",
+    "ranking": 197,
+    "deadlines": {
+      "regular_decision": "2026-06-01"
+    }
+  },
+  {
+    "name": "Kaplan University School of Law",
+    "slug": "kaplan-university-school-of-law",
+    "type": "law_school",
+    "location": "Fort Lauderdale, FL",
+    "ranking": 198,
+    "deadlines": {
+      "regular_decision": "2026-06-01"
+    }
+  },
+  {
+    "name": "Arizona Summit Law School",
+    "slug": "arizona-summit-law-school",
+    "type": "law_school",
+    "location": "Phoenix, AZ",
+    "ranking": 199,
+    "deadlines": {
+      "regular_decision": "2026-06-01"
+    }
+  },
+  {
+    "name": "New York Law School",
+    "slug": "new-york-law-school",
+    "type": "law_school",
+    "location": "New York, NY",
+    "ranking": 200,
+    "deadlines": {
+      "regular_decision": "2026-06-01"
+    }
+  }
+]

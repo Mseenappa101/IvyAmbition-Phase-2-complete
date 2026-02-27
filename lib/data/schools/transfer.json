@@ -1,0 +1,502 @@
+[
+  {
+    "name": "Yale Law School",
+    "slug": "yale-law-school",
+    "type": "transfer",
+    "location": "New Haven, CT",
+    "ranking": 1,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "Stanford Law School",
+    "slug": "stanford-law-school",
+    "type": "transfer",
+    "location": "Stanford, CA",
+    "ranking": 2,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "Harvard Law School",
+    "slug": "harvard-law-school",
+    "type": "transfer",
+    "location": "Cambridge, MA",
+    "ranking": 3,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "Columbia Law School",
+    "slug": "columbia-law-school",
+    "type": "transfer",
+    "location": "New York, NY",
+    "ranking": 4,
+    "deadlines": {
+      "transfer": "2026-07-01"
+    }
+  },
+  {
+    "name": "University of Chicago Law School",
+    "slug": "university-of-chicago-law-school",
+    "type": "transfer",
+    "location": "Chicago, IL",
+    "ranking": 5,
+    "deadlines": {
+      "transfer": "2026-06-01"
+    }
+  },
+  {
+    "name": "New York University School of Law",
+    "slug": "new-york-university-school-of-law",
+    "type": "transfer",
+    "location": "New York, NY",
+    "ranking": 6,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "University of Pennsylvania Carey Law School",
+    "slug": "university-of-pennsylvania-carey-law-school",
+    "type": "transfer",
+    "location": "Philadelphia, PA",
+    "ranking": 7,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "University of Virginia School of Law",
+    "slug": "university-of-virginia-school-of-law",
+    "type": "transfer",
+    "location": "Charlottesville, VA",
+    "ranking": 8,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "University of Michigan Law School",
+    "slug": "university-of-michigan-law-school",
+    "type": "transfer",
+    "location": "Ann Arbor, MI",
+    "ranking": 9,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "University of California Berkeley School of Law",
+    "slug": "university-of-california-berkeley-school-of-law",
+    "type": "transfer",
+    "location": "Berkeley, CA",
+    "ranking": 10,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "Duke University School of Law",
+    "slug": "duke-university-school-of-law",
+    "type": "transfer",
+    "location": "Durham, NC",
+    "ranking": 11,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "Northwestern Pritzker School of Law",
+    "slug": "northwestern-pritzker-school-of-law",
+    "type": "transfer",
+    "location": "Chicago, IL",
+    "ranking": 12,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "Cornell Law School",
+    "slug": "cornell-law-school",
+    "type": "transfer",
+    "location": "Ithaca, NY",
+    "ranking": 13,
+    "deadlines": {
+      "transfer": "2026-07-01"
+    }
+  },
+  {
+    "name": "Georgetown University Law Center",
+    "slug": "georgetown-university-law-center",
+    "type": "transfer",
+    "location": "Washington, DC",
+    "ranking": 14,
+    "deadlines": {
+      "transfer": "2026-07-15"
+    }
+  },
+  {
+    "name": "University of Texas School of Law",
+    "slug": "university-of-texas-school-of-law",
+    "type": "transfer",
+    "location": "Austin, TX",
+    "ranking": 15,
+    "deadlines": {
+      "transfer": "2026-06-01"
+    }
+  },
+  {
+    "name": "Vanderbilt University Law School",
+    "slug": "vanderbilt-university-law-school",
+    "type": "transfer",
+    "location": "Nashville, TN",
+    "ranking": 16,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "University of California Los Angeles School of Law",
+    "slug": "university-of-california-los-angeles-school-of-law",
+    "type": "transfer",
+    "location": "Los Angeles, CA",
+    "ranking": 17,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "Washington University School of Law",
+    "slug": "washington-university-school-of-law",
+    "type": "transfer",
+    "location": "St. Louis, MO",
+    "ranking": 18,
+    "deadlines": {
+      "transfer": "2026-07-01"
+    }
+  },
+  {
+    "name": "University of Notre Dame Law School",
+    "slug": "university-of-notre-dame-law-school",
+    "type": "transfer",
+    "location": "Notre Dame, IN",
+    "ranking": 19,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "Emory University School of Law",
+    "slug": "emory-university-school-of-law",
+    "type": "transfer",
+    "location": "Atlanta, GA",
+    "ranking": 20,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "George Washington University Law School",
+    "slug": "george-washington-university-law-school",
+    "type": "transfer",
+    "location": "Washington, DC",
+    "ranking": 21,
+    "deadlines": {
+      "transfer": "2026-07-01"
+    }
+  },
+  {
+    "name": "University of Minnesota Law School",
+    "slug": "university-of-minnesota-law-school",
+    "type": "transfer",
+    "location": "Minneapolis, MN",
+    "ranking": 22,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "University of Southern California Gould School of Law",
+    "slug": "university-of-southern-california-gould-school-of-law",
+    "type": "transfer",
+    "location": "Los Angeles, CA",
+    "ranking": 23,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "Boston University School of Law",
+    "slug": "boston-university-school-of-law",
+    "type": "transfer",
+    "location": "Boston, MA",
+    "ranking": 24,
+    "deadlines": {
+      "transfer": "2026-07-01"
+    }
+  },
+  {
+    "name": "University of Iowa College of Law",
+    "slug": "university-of-iowa-college-of-law",
+    "type": "transfer",
+    "location": "Iowa City, IA",
+    "ranking": 25,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "Indiana University Maurer School of Law",
+    "slug": "indiana-university-maurer-school-of-law",
+    "type": "transfer",
+    "location": "Bloomington, IN",
+    "ranking": 26,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "University of Illinois College of Law",
+    "slug": "university-of-illinois-college-of-law",
+    "type": "transfer",
+    "location": "Champaign, IL",
+    "ranking": 27,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "William and Mary Law School",
+    "slug": "william-and-mary-law-school",
+    "type": "transfer",
+    "location": "Williamsburg, VA",
+    "ranking": 28,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "Fordham University School of Law",
+    "slug": "fordham-university-school-of-law",
+    "type": "transfer",
+    "location": "New York, NY",
+    "ranking": 29,
+    "deadlines": {
+      "transfer": "2026-07-15"
+    }
+  },
+  {
+    "name": "University of Alabama School of Law",
+    "slug": "university-of-alabama-school-of-law",
+    "type": "transfer",
+    "location": "Tuscaloosa, AL",
+    "ranking": 30,
+    "deadlines": {
+      "transfer": "2026-05-15"
+    }
+  },
+  {
+    "name": "University of Georgia School of Law",
+    "slug": "university-of-georgia-school-of-law",
+    "type": "transfer",
+    "location": "Athens, GA",
+    "ranking": 31,
+    "deadlines": {
+      "transfer": "2026-06-01"
+    }
+  },
+  {
+    "name": "University of Washington School of Law",
+    "slug": "university-of-washington-school-of-law",
+    "type": "transfer",
+    "location": "Seattle, WA",
+    "ranking": 32,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "Wake Forest University School of Law",
+    "slug": "wake-forest-university-school-of-law",
+    "type": "transfer",
+    "location": "Winston-Salem, NC",
+    "ranking": 33,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "Ohio State University Moritz College of Law",
+    "slug": "ohio-state-university-moritz-college-of-law",
+    "type": "transfer",
+    "location": "Columbus, OH",
+    "ranking": 34,
+    "deadlines": {
+      "transfer": "2026-06-01"
+    }
+  },
+  {
+    "name": "University of Colorado Law School",
+    "slug": "university-of-colorado-law-school",
+    "type": "transfer",
+    "location": "Boulder, CO",
+    "ranking": 35,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "Florida State University College of Law",
+    "slug": "florida-state-university-college-of-law",
+    "type": "transfer",
+    "location": "Tallahassee, FL",
+    "ranking": 36,
+    "deadlines": {
+      "transfer": "2026-05-15"
+    }
+  },
+  {
+    "name": "University of Florida Levin College of Law",
+    "slug": "university-of-florida-levin-college-of-law",
+    "type": "transfer",
+    "location": "Gainesville, FL",
+    "ranking": 37,
+    "deadlines": {
+      "transfer": "2026-06-01"
+    }
+  },
+  {
+    "name": "Tulane University Law School",
+    "slug": "tulane-university-law-school",
+    "type": "transfer",
+    "location": "New Orleans, LA",
+    "ranking": 38,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "University of North Carolina School of Law",
+    "slug": "university-of-north-carolina-school-of-law",
+    "type": "transfer",
+    "location": "Chapel Hill, NC",
+    "ranking": 39,
+    "deadlines": {
+      "transfer": "2026-06-01"
+    }
+  },
+  {
+    "name": "Arizona State University Sandra Day O'Connor College of Law",
+    "slug": "arizona-state-university-sandra-day-oconnor-college-of-law",
+    "type": "transfer",
+    "location": "Phoenix, AZ",
+    "ranking": 40,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "University of Arizona James E. Rogers College of Law",
+    "slug": "university-of-arizona-james-e-rogers-college-of-law",
+    "type": "transfer",
+    "location": "Tucson, AZ",
+    "ranking": 41,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "Boston College Law School",
+    "slug": "boston-college-law-school",
+    "type": "transfer",
+    "location": "Newton, MA",
+    "ranking": 42,
+    "deadlines": {
+      "transfer": "2026-07-01"
+    }
+  },
+  {
+    "name": "University of Connecticut School of Law",
+    "slug": "university-of-connecticut-school-of-law",
+    "type": "transfer",
+    "location": "Hartford, CT",
+    "ranking": 43,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "University of Denver Sturm College of Law",
+    "slug": "university-of-denver-sturm-college-of-law",
+    "type": "transfer",
+    "location": "Denver, CO",
+    "ranking": 44,
+    "deadlines": {
+      "transfer": "2026-07-01"
+    }
+  },
+  {
+    "name": "Southern Methodist University Dedman School of Law",
+    "slug": "southern-methodist-university-dedman-school-of-law",
+    "type": "transfer",
+    "location": "Dallas, TX",
+    "ranking": 45,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "Temple University Beasley School of Law",
+    "slug": "temple-university-beasley-school-of-law",
+    "type": "transfer",
+    "location": "Philadelphia, PA",
+    "ranking": 46,
+    "deadlines": {
+      "transfer": "2026-07-01"
+    }
+  },
+  {
+    "name": "University of Maryland Francis King Carey School of Law",
+    "slug": "university-of-maryland-francis-king-carey-school-of-law",
+    "type": "transfer",
+    "location": "Baltimore, MD",
+    "ranking": 47,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "University of Houston Law Center",
+    "slug": "university-of-houston-law-center",
+    "type": "transfer",
+    "location": "Houston, TX",
+    "ranking": 48,
+    "deadlines": {
+      "transfer": "2026-06-01"
+    }
+  },
+  {
+    "name": "George Mason University Antonin Scalia Law School",
+    "slug": "george-mason-university-antonin-scalia-law-school",
+    "type": "transfer",
+    "location": "Arlington, VA",
+    "ranking": 49,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  },
+  {
+    "name": "University of Wisconsin Law School",
+    "slug": "university-of-wisconsin-law-school",
+    "type": "transfer",
+    "location": "Madison, WI",
+    "ranking": 50,
+    "deadlines": {
+      "transfer": "2026-06-15"
+    }
+  }
+]

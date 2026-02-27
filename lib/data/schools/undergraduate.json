@@ -1,0 +1,2157 @@
+[
+  {
+    "name": "Massachusetts Institute of Technology",
+    "slug": "massachusetts-institute-of-technology",
+    "type": "undergraduate",
+    "location": "Cambridge, MA",
+    "ranking": 1,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-01"
+    }
+  },
+  {
+    "name": "Stanford University",
+    "slug": "stanford-university",
+    "type": "undergraduate",
+    "location": "Stanford, CA",
+    "ranking": 2,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-02"
+    }
+  },
+  {
+    "name": "Harvard University",
+    "slug": "harvard-university",
+    "type": "undergraduate",
+    "location": "Cambridge, MA",
+    "ranking": 3,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-01"
+    }
+  },
+  {
+    "name": "Yale University",
+    "slug": "yale-university",
+    "type": "undergraduate",
+    "location": "New Haven, CT",
+    "ranking": 4,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-02"
+    }
+  },
+  {
+    "name": "Princeton University",
+    "slug": "princeton-university",
+    "type": "undergraduate",
+    "location": "Princeton, NJ",
+    "ranking": 5,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-01"
+    }
+  },
+  {
+    "name": "University of Pennsylvania",
+    "slug": "university-of-pennsylvania",
+    "type": "undergraduate",
+    "location": "Philadelphia, PA",
+    "ranking": 6,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-05"
+    }
+  },
+  {
+    "name": "California Institute of Technology",
+    "slug": "california-institute-of-technology",
+    "type": "undergraduate",
+    "location": "Pasadena, CA",
+    "ranking": 7,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-03"
+    }
+  },
+  {
+    "name": "Duke University",
+    "slug": "duke-university",
+    "type": "undergraduate",
+    "location": "Durham, NC",
+    "ranking": 8,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-02"
+    }
+  },
+  {
+    "name": "Columbia University",
+    "slug": "columbia-university",
+    "type": "undergraduate",
+    "location": "New York, NY",
+    "ranking": 9,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-01"
+    }
+  },
+  {
+    "name": "Dartmouth College",
+    "slug": "dartmouth-college",
+    "type": "undergraduate",
+    "location": "Hanover, NH",
+    "ranking": 10,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-02"
+    }
+  },
+  {
+    "name": "Johns Hopkins University",
+    "slug": "johns-hopkins-university",
+    "type": "undergraduate",
+    "location": "Baltimore, MD",
+    "ranking": 11,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-02"
+    }
+  },
+  {
+    "name": "Northwestern University",
+    "slug": "northwestern-university",
+    "type": "undergraduate",
+    "location": "Evanston, IL",
+    "ranking": 12,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-02"
+    }
+  },
+  {
+    "name": "Brown University",
+    "slug": "brown-university",
+    "type": "undergraduate",
+    "location": "Providence, RI",
+    "ranking": 13,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-05"
+    }
+  },
+  {
+    "name": "Cornell University",
+    "slug": "cornell-university",
+    "type": "undergraduate",
+    "location": "Ithaca, NY",
+    "ranking": 14,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-02"
+    }
+  },
+  {
+    "name": "Rice University",
+    "slug": "rice-university",
+    "type": "undergraduate",
+    "location": "Houston, TX",
+    "ranking": 15,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-01"
+    }
+  },
+  {
+    "name": "Vanderbilt University",
+    "slug": "vanderbilt-university",
+    "type": "undergraduate",
+    "location": "Nashville, TN",
+    "ranking": 16,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-01"
+    }
+  },
+  {
+    "name": "Washington University in St. Louis",
+    "slug": "washington-university-in-st-louis",
+    "type": "undergraduate",
+    "location": "St. Louis, MO",
+    "ranking": 17,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-02"
+    }
+  },
+  {
+    "name": "Emory University",
+    "slug": "emory-university",
+    "type": "undergraduate",
+    "location": "Atlanta, GA",
+    "ranking": 18,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-01"
+    }
+  },
+  {
+    "name": "Notre Dame University",
+    "slug": "notre-dame-university",
+    "type": "undergraduate",
+    "location": "Notre Dame, IN",
+    "ranking": 19,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-01"
+    }
+  },
+  {
+    "name": "Georgetown University",
+    "slug": "georgetown-university",
+    "type": "undergraduate",
+    "location": "Washington, DC",
+    "ranking": 20,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-10"
+    }
+  },
+  {
+    "name": "Carnegie Mellon University",
+    "slug": "carnegie-mellon-university",
+    "type": "undergraduate",
+    "location": "Pittsburgh, PA",
+    "ranking": 21,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-02"
+    }
+  },
+  {
+    "name": "University of California, Berkeley",
+    "slug": "university-of-california-berkeley",
+    "type": "undergraduate",
+    "location": "Berkeley, CA",
+    "ranking": 22,
+    "deadlines": {
+      "regular_decision": "2025-11-30"
+    }
+  },
+  {
+    "name": "University of Michigan",
+    "slug": "university-of-michigan",
+    "type": "undergraduate",
+    "location": "Ann Arbor, MI",
+    "ranking": 23,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "University of Virginia",
+    "slug": "university-of-virginia",
+    "type": "undergraduate",
+    "location": "Charlottesville, VA",
+    "ranking": 24,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-01"
+    }
+  },
+  {
+    "name": "University of North Carolina at Chapel Hill",
+    "slug": "university-of-north-carolina-at-chapel-hill",
+    "type": "undergraduate",
+    "location": "Chapel Hill, NC",
+    "ranking": 25,
+    "deadlines": {
+      "early_action": "2025-10-15",
+      "regular_decision": "2026-01-15"
+    }
+  },
+  {
+    "name": "Tufts University",
+    "slug": "tufts-university",
+    "type": "undergraduate",
+    "location": "Medford, MA",
+    "ranking": 26,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-01"
+    }
+  },
+  {
+    "name": "University of California, Los Angeles",
+    "slug": "university-of-california-los-angeles",
+    "type": "undergraduate",
+    "location": "Los Angeles, CA",
+    "ranking": 27,
+    "deadlines": {
+      "regular_decision": "2025-11-30"
+    }
+  },
+  {
+    "name": "New York University",
+    "slug": "new-york-university",
+    "type": "undergraduate",
+    "location": "New York, NY",
+    "ranking": 28,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-05"
+    }
+  },
+  {
+    "name": "University of Southern California",
+    "slug": "university-of-southern-california",
+    "type": "undergraduate",
+    "location": "Los Angeles, CA",
+    "ranking": 29,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-15"
+    }
+  },
+  {
+    "name": "Wake Forest University",
+    "slug": "wake-forest-university",
+    "type": "undergraduate",
+    "location": "Winston-Salem, NC",
+    "ranking": 30,
+    "deadlines": {
+      "early_decision": "2025-11-15",
+      "regular_decision": "2026-01-01"
+    }
+  },
+  {
+    "name": "University of Florida",
+    "slug": "university-of-florida",
+    "type": "undergraduate",
+    "location": "Gainesville, FL",
+    "ranking": 31,
+    "deadlines": {
+      "early_action": "2025-10-15",
+      "regular_decision": "2026-01-01"
+    }
+  },
+  {
+    "name": "Boston College",
+    "slug": "boston-college",
+    "type": "undergraduate",
+    "location": "Chestnut Hill, MA",
+    "ranking": 32,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-01"
+    }
+  },
+  {
+    "name": "Tulane University",
+    "slug": "tulane-university",
+    "type": "undergraduate",
+    "location": "New Orleans, LA",
+    "ranking": 33,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-15"
+    }
+  },
+  {
+    "name": "University of Rochester",
+    "slug": "university-of-rochester",
+    "type": "undergraduate",
+    "location": "Rochester, NY",
+    "ranking": 34,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-05"
+    }
+  },
+  {
+    "name": "Georgia Institute of Technology",
+    "slug": "georgia-institute-of-technology",
+    "type": "undergraduate",
+    "location": "Atlanta, GA",
+    "ranking": 35,
+    "deadlines": {
+      "early_action": "2025-10-15",
+      "regular_decision": "2026-01-05"
+    }
+  },
+  {
+    "name": "University of Wisconsin-Madison",
+    "slug": "university-of-wisconsin-madison",
+    "type": "undergraduate",
+    "location": "Madison, WI",
+    "ranking": 36,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "Boston University",
+    "slug": "boston-university",
+    "type": "undergraduate",
+    "location": "Boston, MA",
+    "ranking": 37,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-02"
+    }
+  },
+  {
+    "name": "William & Mary",
+    "slug": "william-and-mary",
+    "type": "undergraduate",
+    "location": "Williamsburg, VA",
+    "ranking": 38,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-01"
+    }
+  },
+  {
+    "name": "Purdue University",
+    "slug": "purdue-university",
+    "type": "undergraduate",
+    "location": "West Lafayette, IN",
+    "ranking": 39,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "University of Illinois Urbana-Champaign",
+    "slug": "university-of-illinois-urbana-champaign",
+    "type": "undergraduate",
+    "location": "Champaign, IL",
+    "ranking": 40,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-05"
+    }
+  },
+  {
+    "name": "Case Western Reserve University",
+    "slug": "case-western-reserve-university",
+    "type": "undergraduate",
+    "location": "Cleveland, OH",
+    "ranking": 41,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-15"
+    }
+  },
+  {
+    "name": "University of Texas at Austin",
+    "slug": "university-of-texas-at-austin",
+    "type": "undergraduate",
+    "location": "Austin, TX",
+    "ranking": 42,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2025-12-01"
+    }
+  },
+  {
+    "name": "Lehigh University",
+    "slug": "lehigh-university",
+    "type": "undergraduate",
+    "location": "Bethlehem, PA",
+    "ranking": 43,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-15"
+    }
+  },
+  {
+    "name": "Northeastern University",
+    "slug": "northeastern-university",
+    "type": "undergraduate",
+    "location": "Boston, MA",
+    "ranking": 44,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-01"
+    }
+  },
+  {
+    "name": "University of California, San Diego",
+    "slug": "university-of-california-san-diego",
+    "type": "undergraduate",
+    "location": "La Jolla, CA",
+    "ranking": 45,
+    "deadlines": {
+      "regular_decision": "2025-11-30"
+    }
+  },
+  {
+    "name": "University of California, Santa Barbara",
+    "slug": "university-of-california-santa-barbara",
+    "type": "undergraduate",
+    "location": "Santa Barbara, CA",
+    "ranking": 46,
+    "deadlines": {
+      "regular_decision": "2025-11-30"
+    }
+  },
+  {
+    "name": "University of California, Irvine",
+    "slug": "university-of-california-irvine",
+    "type": "undergraduate",
+    "location": "Irvine, CA",
+    "ranking": 47,
+    "deadlines": {
+      "regular_decision": "2025-11-30"
+    }
+  },
+  {
+    "name": "Villanova University",
+    "slug": "villanova-university",
+    "type": "undergraduate",
+    "location": "Villanova, PA",
+    "ranking": 48,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-15"
+    }
+  },
+  {
+    "name": "Ohio State University",
+    "slug": "ohio-state-university",
+    "type": "undergraduate",
+    "location": "Columbus, OH",
+    "ranking": 49,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "University of California, Davis",
+    "slug": "university-of-california-davis",
+    "type": "undergraduate",
+    "location": "Davis, CA",
+    "ranking": 50,
+    "deadlines": {
+      "regular_decision": "2025-11-30"
+    }
+  },
+  {
+    "name": "Rensselaer Polytechnic Institute",
+    "slug": "rensselaer-polytechnic-institute",
+    "type": "undergraduate",
+    "location": "Troy, NY",
+    "ranking": 51,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-15"
+    }
+  },
+  {
+    "name": "University of Maryland",
+    "slug": "university-of-maryland",
+    "type": "undergraduate",
+    "location": "College Park, MD",
+    "ranking": 52,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-20"
+    }
+  },
+  {
+    "name": "Brandeis University",
+    "slug": "brandeis-university",
+    "type": "undergraduate",
+    "location": "Waltham, MA",
+    "ranking": 53,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-15"
+    }
+  },
+  {
+    "name": "Pepperdine University",
+    "slug": "pepperdine-university",
+    "type": "undergraduate",
+    "location": "Malibu, CA",
+    "ranking": 54,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-15"
+    }
+  },
+  {
+    "name": "Penn State University",
+    "slug": "penn-state-university",
+    "type": "undergraduate",
+    "location": "University Park, PA",
+    "ranking": 55,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "Syracuse University",
+    "slug": "syracuse-university",
+    "type": "undergraduate",
+    "location": "Syracuse, NY",
+    "ranking": 56,
+    "deadlines": {
+      "early_decision": "2025-11-15",
+      "regular_decision": "2026-01-01"
+    }
+  },
+  {
+    "name": "Indiana University Bloomington",
+    "slug": "indiana-university-bloomington",
+    "type": "undergraduate",
+    "location": "Bloomington, IN",
+    "ranking": 57,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "University of Minnesota Twin Cities",
+    "slug": "university-of-minnesota-twin-cities",
+    "type": "undergraduate",
+    "location": "Minneapolis, MN",
+    "ranking": 58,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-15"
+    }
+  },
+  {
+    "name": "University of Connecticut",
+    "slug": "university-of-connecticut",
+    "type": "undergraduate",
+    "location": "Storrs, CT",
+    "ranking": 59,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-15"
+    }
+  },
+  {
+    "name": "Stevens Institute of Technology",
+    "slug": "stevens-institute-of-technology",
+    "type": "undergraduate",
+    "location": "Hoboken, NJ",
+    "ranking": 60,
+    "deadlines": {
+      "early_decision": "2025-11-15",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "University of Pittsburgh",
+    "slug": "university-of-pittsburgh",
+    "type": "undergraduate",
+    "location": "Pittsburgh, PA",
+    "ranking": 61,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-15"
+    }
+  },
+  {
+    "name": "Southern Methodist University",
+    "slug": "southern-methodist-university",
+    "type": "undergraduate",
+    "location": "Dallas, TX",
+    "ranking": 62,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-15"
+    }
+  },
+  {
+    "name": "Rutgers University",
+    "slug": "rutgers-university",
+    "type": "undergraduate",
+    "location": "New Brunswick, NJ",
+    "ranking": 63,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-15"
+    }
+  },
+  {
+    "name": "Texas A&M University",
+    "slug": "texas-a-and-m-university",
+    "type": "undergraduate",
+    "location": "College Station, TX",
+    "ranking": 64,
+    "deadlines": {
+      "early_action": "2025-10-15",
+      "regular_decision": "2025-12-01"
+    }
+  },
+  {
+    "name": "University of Washington",
+    "slug": "university-of-washington",
+    "type": "undergraduate",
+    "location": "Seattle, WA",
+    "ranking": 65,
+    "deadlines": {
+      "regular_decision": "2025-11-15"
+    }
+  },
+  {
+    "name": "Virginia Tech",
+    "slug": "virginia-tech",
+    "type": "undergraduate",
+    "location": "Blacksburg, VA",
+    "ranking": 66,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-15"
+    }
+  },
+  {
+    "name": "Michigan State University",
+    "slug": "michigan-state-university",
+    "type": "undergraduate",
+    "location": "East Lansing, MI",
+    "ranking": 67,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "Yeshiva University",
+    "slug": "yeshiva-university",
+    "type": "undergraduate",
+    "location": "New York, NY",
+    "ranking": 68,
+    "deadlines": {
+      "early_action": "2025-11-15",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "Fordham University",
+    "slug": "fordham-university",
+    "type": "undergraduate",
+    "location": "New York, NY",
+    "ranking": 69,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-01"
+    }
+  },
+  {
+    "name": "University of Georgia",
+    "slug": "university-of-georgia",
+    "type": "undergraduate",
+    "location": "Athens, GA",
+    "ranking": 70,
+    "deadlines": {
+      "early_action": "2025-10-15",
+      "regular_decision": "2026-01-01"
+    }
+  },
+  {
+    "name": "University of Miami",
+    "slug": "university-of-miami",
+    "type": "undergraduate",
+    "location": "Coral Gables, FL",
+    "ranking": 71,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "University of California, Santa Cruz",
+    "slug": "university-of-california-santa-cruz",
+    "type": "undergraduate",
+    "location": "Santa Cruz, CA",
+    "ranking": 72,
+    "deadlines": {
+      "regular_decision": "2025-11-30"
+    }
+  },
+  {
+    "name": "American University",
+    "slug": "american-university",
+    "type": "undergraduate",
+    "location": "Washington, DC",
+    "ranking": 73,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-15"
+    }
+  },
+  {
+    "name": "Baylor University",
+    "slug": "baylor-university",
+    "type": "undergraduate",
+    "location": "Waco, TX",
+    "ranking": 74,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "University of Colorado Boulder",
+    "slug": "university-of-colorado-boulder",
+    "type": "undergraduate",
+    "location": "Boulder, CO",
+    "ranking": 75,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-15"
+    }
+  },
+  {
+    "name": "Clemson University",
+    "slug": "clemson-university",
+    "type": "undergraduate",
+    "location": "Clemson, SC",
+    "ranking": 76,
+    "deadlines": {
+      "early_action": "2025-10-15",
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "George Washington University",
+    "slug": "george-washington-university",
+    "type": "undergraduate",
+    "location": "Washington, DC",
+    "ranking": 77,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-05"
+    }
+  },
+  {
+    "name": "University of Denver",
+    "slug": "university-of-denver",
+    "type": "undergraduate",
+    "location": "Denver, CO",
+    "ranking": 78,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-15"
+    }
+  },
+  {
+    "name": "University of Arizona",
+    "slug": "university-of-arizona",
+    "type": "undergraduate",
+    "location": "Tucson, AZ",
+    "ranking": 79,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Stony Brook University",
+    "slug": "stony-brook-university",
+    "type": "undergraduate",
+    "location": "Stony Brook, NY",
+    "ranking": 80,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-15"
+    }
+  },
+  {
+    "name": "University of Notre Dame",
+    "slug": "university-of-notre-dame",
+    "type": "undergraduate",
+    "location": "Notre Dame, IN",
+    "ranking": 81,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-01"
+    }
+  },
+  {
+    "name": "Drexel University",
+    "slug": "drexel-university",
+    "type": "undergraduate",
+    "location": "Philadelphia, PA",
+    "ranking": 82,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "Howard University",
+    "slug": "howard-university",
+    "type": "undergraduate",
+    "location": "Washington, DC",
+    "ranking": 83,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-02-15"
+    }
+  },
+  {
+    "name": "Colorado School of Mines",
+    "slug": "colorado-school-of-mines",
+    "type": "undergraduate",
+    "location": "Golden, CO",
+    "ranking": 84,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Worcester Polytechnic Institute",
+    "slug": "worcester-polytechnic-institute",
+    "type": "undergraduate",
+    "location": "Worcester, MA",
+    "ranking": 85,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "Marquette University",
+    "slug": "marquette-university",
+    "type": "undergraduate",
+    "location": "Milwaukee, WI",
+    "ranking": 86,
+    "deadlines": {
+      "early_action": "2025-12-01",
+      "regular_decision": "2026-12-01"
+    }
+  },
+  {
+    "name": "University of San Diego",
+    "slug": "university-of-san-diego",
+    "type": "undergraduate",
+    "location": "San Diego, CA",
+    "ranking": 87,
+    "deadlines": {
+      "early_decision": "2025-11-15",
+      "regular_decision": "2026-01-21"
+    }
+  },
+  {
+    "name": "Gonzaga University",
+    "slug": "gonzaga-university",
+    "type": "undergraduate",
+    "location": "Spokane, WA",
+    "ranking": 88,
+    "deadlines": {
+      "early_action": "2025-11-15",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "George Mason University",
+    "slug": "george-mason-university",
+    "type": "undergraduate",
+    "location": "Fairfax, VA",
+    "ranking": 89,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-15"
+    }
+  },
+  {
+    "name": "Florida State University",
+    "slug": "florida-state-university",
+    "type": "undergraduate",
+    "location": "Tallahassee, FL",
+    "ranking": 90,
+    "deadlines": {
+      "early_action": "2025-10-15",
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "Brigham Young University",
+    "slug": "brigham-young-university",
+    "type": "undergraduate",
+    "location": "Provo, UT",
+    "ranking": 91,
+    "deadlines": {
+      "regular_decision": "2025-12-15"
+    }
+  },
+  {
+    "name": "University of Iowa",
+    "slug": "university-of-iowa",
+    "type": "undergraduate",
+    "location": "Iowa City, IA",
+    "ranking": 92,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "University of Tennessee",
+    "slug": "university-of-tennessee",
+    "type": "undergraduate",
+    "location": "Knoxville, TN",
+    "ranking": 93,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-12-15"
+    }
+  },
+  {
+    "name": "Michigan Technological University",
+    "slug": "michigan-technological-university",
+    "type": "undergraduate",
+    "location": "Houghton, MI",
+    "ranking": 94,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "University of Delaware",
+    "slug": "university-of-delaware",
+    "type": "undergraduate",
+    "location": "Newark, DE",
+    "ranking": 95,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-15"
+    }
+  },
+  {
+    "name": "University of Massachusetts Amherst",
+    "slug": "university-of-massachusetts-amherst",
+    "type": "undergraduate",
+    "location": "Amherst, MA",
+    "ranking": 96,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-15"
+    }
+  },
+  {
+    "name": "Auburn University",
+    "slug": "auburn-university",
+    "type": "undergraduate",
+    "location": "Auburn, AL",
+    "ranking": 97,
+    "deadlines": {
+      "early_action": "2025-10-15",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "University of Alabama",
+    "slug": "university-of-alabama",
+    "type": "undergraduate",
+    "location": "Tuscaloosa, AL",
+    "ranking": 98,
+    "deadlines": {
+      "early_action": "2025-10-15",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "Loyola University Chicago",
+    "slug": "loyola-university-chicago",
+    "type": "undergraduate",
+    "location": "Chicago, IL",
+    "ranking": 99,
+    "deadlines": {
+      "early_action": "2025-11-15",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "Rochester Institute of Technology",
+    "slug": "rochester-institute-of-technology",
+    "type": "undergraduate",
+    "location": "Rochester, NY",
+    "ranking": 100,
+    "deadlines": {
+      "early_decision": "2025-12-01",
+      "regular_decision": "2026-02-15"
+    }
+  },
+  {
+    "name": "University of Kansas",
+    "slug": "university-of-kansas",
+    "type": "undergraduate",
+    "location": "Lawrence, KS",
+    "ranking": 101,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Santa Clara University",
+    "slug": "santa-clara-university",
+    "type": "undergraduate",
+    "location": "Santa Clara, CA",
+    "ranking": 102,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-01-07"
+    }
+  },
+  {
+    "name": "University of San Francisco",
+    "slug": "university-of-san-francisco",
+    "type": "undergraduate",
+    "location": "San Francisco, CA",
+    "ranking": 103,
+    "deadlines": {
+      "early_action": "2025-11-15",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "Texas Christian University",
+    "slug": "texas-christian-university",
+    "type": "undergraduate",
+    "location": "Fort Worth, TX",
+    "ranking": 104,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-02-15"
+    }
+  },
+  {
+    "name": "University of Oklahoma",
+    "slug": "university-of-oklahoma",
+    "type": "undergraduate",
+    "location": "Norman, OK",
+    "ranking": 105,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Iowa State University",
+    "slug": "iowa-state-university",
+    "type": "undergraduate",
+    "location": "Ames, IA",
+    "ranking": 106,
+    "deadlines": {
+      "early_action": "2025-10-15",
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "North Carolina State University",
+    "slug": "north-carolina-state-university",
+    "type": "undergraduate",
+    "location": "Raleigh, NC",
+    "ranking": 107,
+    "deadlines": {
+      "early_action": "2025-10-15",
+      "regular_decision": "2025-12-01"
+    }
+  },
+  {
+    "name": "University of Nebraska-Lincoln",
+    "slug": "university-of-nebraska-lincoln",
+    "type": "undergraduate",
+    "location": "Lincoln, NE",
+    "ranking": 108,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Mississippi State University",
+    "slug": "mississippi-state-university",
+    "type": "undergraduate",
+    "location": "Starkville, MS",
+    "ranking": 109,
+    "deadlines": {
+      "early_action": "2025-10-01",
+      "regular_decision": "2026-07-01"
+    }
+  },
+  {
+    "name": "University of Missouri",
+    "slug": "university-of-missouri",
+    "type": "undergraduate",
+    "location": "Columbia, MO",
+    "ranking": 110,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "University of Oregon",
+    "slug": "university-of-oregon",
+    "type": "undergraduate",
+    "location": "Eugene, OR",
+    "ranking": 111,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-15"
+    }
+  },
+  {
+    "name": "Temple University",
+    "slug": "temple-university",
+    "type": "undergraduate",
+    "location": "Philadelphia, PA",
+    "ranking": 112,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "Colorado State University",
+    "slug": "colorado-state-university",
+    "type": "undergraduate",
+    "location": "Fort Collins, CO",
+    "ranking": 113,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-07-01"
+    }
+  },
+  {
+    "name": "Loyola Marymount University",
+    "slug": "loyola-marymount-university",
+    "type": "undergraduate",
+    "location": "Los Angeles, CA",
+    "ranking": 114,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-15"
+    }
+  },
+  {
+    "name": "University of Kentucky",
+    "slug": "university-of-kentucky",
+    "type": "undergraduate",
+    "location": "Lexington, KY",
+    "ranking": 115,
+    "deadlines": {
+      "regular_decision": "2026-02-15"
+    }
+  },
+  {
+    "name": "University of Houston",
+    "slug": "university-of-houston",
+    "type": "undergraduate",
+    "location": "Houston, TX",
+    "ranking": 116,
+    "deadlines": {
+      "early_action": "2025-10-15",
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Creighton University",
+    "slug": "creighton-university",
+    "type": "undergraduate",
+    "location": "Omaha, NE",
+    "ranking": 117,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "University of Utah",
+    "slug": "university-of-utah",
+    "type": "undergraduate",
+    "location": "Salt Lake City, UT",
+    "ranking": 118,
+    "deadlines": {
+      "early_action": "2025-12-01",
+      "regular_decision": "2026-04-01"
+    }
+  },
+  {
+    "name": "Arizona State University",
+    "slug": "arizona-state-university",
+    "type": "undergraduate",
+    "location": "Tempe, AZ",
+    "ranking": 119,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "University of Arkansas",
+    "slug": "university-of-arkansas",
+    "type": "undergraduate",
+    "location": "Fayetteville, AR",
+    "ranking": 120,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-08-01"
+    }
+  },
+  {
+    "name": "University of South Carolina",
+    "slug": "university-of-south-carolina",
+    "type": "undergraduate",
+    "location": "Columbia, SC",
+    "ranking": 121,
+    "deadlines": {
+      "early_action": "2025-10-15",
+      "regular_decision": "2025-12-01"
+    }
+  },
+  {
+    "name": "University of Vermont",
+    "slug": "university-of-vermont",
+    "type": "undergraduate",
+    "location": "Burlington, VT",
+    "ranking": 122,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-15"
+    }
+  },
+  {
+    "name": "University of New Hampshire",
+    "slug": "university-of-new-hampshire",
+    "type": "undergraduate",
+    "location": "Durham, NH",
+    "ranking": 123,
+    "deadlines": {
+      "early_action": "2025-11-15",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "West Virginia University",
+    "slug": "west-virginia-university",
+    "type": "undergraduate",
+    "location": "Morgantown, WV",
+    "ranking": 124,
+    "deadlines": {
+      "regular_decision": "2026-08-01"
+    }
+  },
+  {
+    "name": "University of New Mexico",
+    "slug": "university-of-new-mexico",
+    "type": "undergraduate",
+    "location": "Albuquerque, NM",
+    "ranking": 125,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-06-15"
+    }
+  },
+  {
+    "name": "University of Nevada, Las Vegas",
+    "slug": "university-of-nevada-las-vegas",
+    "type": "undergraduate",
+    "location": "Las Vegas, NV",
+    "ranking": 126,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "University of Nevada, Reno",
+    "slug": "university-of-nevada-reno",
+    "type": "undergraduate",
+    "location": "Reno, NV",
+    "ranking": 127,
+    "deadlines": {
+      "early_action": "2025-11-15",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "Missouri University of Science and Technology",
+    "slug": "missouri-university-of-science-and-technology",
+    "type": "undergraduate",
+    "location": "Rolla, MO",
+    "ranking": 128,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-07-01"
+    }
+  },
+  {
+    "name": "Illinois Institute of Technology",
+    "slug": "illinois-institute-of-technology",
+    "type": "undergraduate",
+    "location": "Chicago, IL",
+    "ranking": 129,
+    "deadlines": {
+      "early_action": "2025-12-01",
+      "regular_decision": "2026-08-01"
+    }
+  },
+  {
+    "name": "University of Rhode Island",
+    "slug": "university-of-rhode-island",
+    "type": "undergraduate",
+    "location": "Kingston, RI",
+    "ranking": 130,
+    "deadlines": {
+      "early_action": "2025-12-01",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "Duquesne University",
+    "slug": "duquesne-university",
+    "type": "undergraduate",
+    "location": "Pittsburgh, PA",
+    "ranking": 131,
+    "deadlines": {
+      "early_action": "2025-12-01",
+      "regular_decision": "2026-07-01"
+    }
+  },
+  {
+    "name": "Ohio University",
+    "slug": "ohio-university",
+    "type": "undergraduate",
+    "location": "Athens, OH",
+    "ranking": 132,
+    "deadlines": {
+      "early_action": "2025-12-01",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "University of Maine",
+    "slug": "university-of-maine",
+    "type": "undergraduate",
+    "location": "Orono, ME",
+    "ranking": 133,
+    "deadlines": {
+      "early_action": "2025-12-01",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "University of Central Florida",
+    "slug": "university-of-central-florida",
+    "type": "undergraduate",
+    "location": "Orlando, FL",
+    "ranking": 134,
+    "deadlines": {
+      "early_action": "2025-10-15",
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Old Dominion University",
+    "slug": "old-dominion-university",
+    "type": "undergraduate",
+    "location": "Norfolk, VA",
+    "ranking": 135,
+    "deadlines": {
+      "early_action": "2025-11-15",
+      "regular_decision": "2026-07-01"
+    }
+  },
+  {
+    "name": "University of South Florida",
+    "slug": "university-of-south-florida",
+    "type": "undergraduate",
+    "location": "Tampa, FL",
+    "ranking": 136,
+    "deadlines": {
+      "early_action": "2025-10-15",
+      "regular_decision": "2026-07-01"
+    }
+  },
+  {
+    "name": "Kennesaw State University",
+    "slug": "kennesaw-state-university",
+    "type": "undergraduate",
+    "location": "Kennesaw, GA",
+    "ranking": 137,
+    "deadlines": {
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "Ball State University",
+    "slug": "ball-state-university",
+    "type": "undergraduate",
+    "location": "Muncie, IN",
+    "ranking": 138,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-07-01"
+    }
+  },
+  {
+    "name": "Northern Arizona University",
+    "slug": "northern-arizona-university",
+    "type": "undergraduate",
+    "location": "Flagstaff, AZ",
+    "ranking": 139,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-07-01"
+    }
+  },
+  {
+    "name": "University of Dayton",
+    "slug": "university-of-dayton",
+    "type": "undergraduate",
+    "location": "Dayton, OH",
+    "ranking": 140,
+    "deadlines": {
+      "early_decision": "2025-11-01",
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "DePaul University",
+    "slug": "depaul-university",
+    "type": "undergraduate",
+    "location": "Chicago, IL",
+    "ranking": 141,
+    "deadlines": {
+      "early_action": "2025-11-15",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "University of the Pacific",
+    "slug": "university-of-the-pacific",
+    "type": "undergraduate",
+    "location": "Stockton, CA",
+    "ranking": 142,
+    "deadlines": {
+      "early_action": "2025-11-15",
+      "regular_decision": "2026-01-15"
+    }
+  },
+  {
+    "name": "Butler University",
+    "slug": "butler-university",
+    "type": "undergraduate",
+    "location": "Indianapolis, IN",
+    "ranking": 143,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "Seton Hall University",
+    "slug": "seton-hall-university",
+    "type": "undergraduate",
+    "location": "South Orange, NJ",
+    "ranking": 144,
+    "deadlines": {
+      "early_action": "2025-12-01",
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "Valparaiso University",
+    "slug": "valparaiso-university",
+    "type": "undergraduate",
+    "location": "Valparaiso, IN",
+    "ranking": 145,
+    "deadlines": {
+      "early_action": "2025-12-01",
+      "regular_decision": "2026-08-15"
+    }
+  },
+  {
+    "name": "University of Hawaii at Manoa",
+    "slug": "university-of-hawaii-at-manoa",
+    "type": "undergraduate",
+    "location": "Honolulu, HI",
+    "ranking": 146,
+    "deadlines": {
+      "early_action": "2025-12-01",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "Kansas State University",
+    "slug": "kansas-state-university",
+    "type": "undergraduate",
+    "location": "Manhattan, KS",
+    "ranking": 147,
+    "deadlines": {
+      "regular_decision": "2026-08-01"
+    }
+  },
+  {
+    "name": "New Mexico State University",
+    "slug": "new-mexico-state-university",
+    "type": "undergraduate",
+    "location": "Las Cruces, NM",
+    "ranking": 148,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-08-01"
+    }
+  },
+  {
+    "name": "University of North Dakota",
+    "slug": "university-of-north-dakota",
+    "type": "undergraduate",
+    "location": "Grand Forks, ND",
+    "ranking": 149,
+    "deadlines": {
+      "early_action": "2025-12-01",
+      "regular_decision": "2026-08-01"
+    }
+  },
+  {
+    "name": "University of South Dakota",
+    "slug": "university-of-south-dakota",
+    "type": "undergraduate",
+    "location": "Vermillion, SD",
+    "ranking": 150,
+    "deadlines": {
+      "regular_decision": "2026-08-01"
+    }
+  },
+  {
+    "name": "Xavier University",
+    "slug": "xavier-university",
+    "type": "undergraduate",
+    "location": "Cincinnati, OH",
+    "ranking": 151,
+    "deadlines": {
+      "early_action": "2025-12-01",
+      "regular_decision": "2026-07-01"
+    }
+  },
+  {
+    "name": "University of Idaho",
+    "slug": "university-of-idaho",
+    "type": "undergraduate",
+    "location": "Moscow, ID",
+    "ranking": 152,
+    "deadlines": {
+      "regular_decision": "2026-08-01"
+    }
+  },
+  {
+    "name": "Utah State University",
+    "slug": "utah-state-university",
+    "type": "undergraduate",
+    "location": "Logan, UT",
+    "ranking": 153,
+    "deadlines": {
+      "early_action": "2025-12-01",
+      "regular_decision": "2026-08-01"
+    }
+  },
+  {
+    "name": "Montana State University",
+    "slug": "montana-state-university",
+    "type": "undergraduate",
+    "location": "Bozeman, MT",
+    "ranking": 154,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-08-01"
+    }
+  },
+  {
+    "name": "University of Montana",
+    "slug": "university-of-montana",
+    "type": "undergraduate",
+    "location": "Missoula, MT",
+    "ranking": 155,
+    "deadlines": {
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "Oregon State University",
+    "slug": "oregon-state-university",
+    "type": "undergraduate",
+    "location": "Corvallis, OR",
+    "ranking": 156,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-02-01"
+    }
+  },
+  {
+    "name": "Washington State University",
+    "slug": "washington-state-university",
+    "type": "undergraduate",
+    "location": "Pullman, WA",
+    "ranking": 157,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Appalachian State University",
+    "slug": "appalachian-state-university",
+    "type": "undergraduate",
+    "location": "Boone, NC",
+    "ranking": 158,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "James Madison University",
+    "slug": "james-madison-university",
+    "type": "undergraduate",
+    "location": "Harrisonburg, VA",
+    "ranking": 159,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-15"
+    }
+  },
+  {
+    "name": "University of Vermont",
+    "slug": "university-of-vermont-2",
+    "type": "undergraduate",
+    "location": "Burlington, VT",
+    "ranking": 160,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-01-15"
+    }
+  },
+  {
+    "name": "East Carolina University",
+    "slug": "east-carolina-university",
+    "type": "undergraduate",
+    "location": "Greenville, NC",
+    "ranking": 161,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "Florida International University",
+    "slug": "florida-international-university",
+    "type": "undergraduate",
+    "location": "Miami, FL",
+    "ranking": 162,
+    "deadlines": {
+      "early_action": "2025-10-15",
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "University of Alabama at Birmingham",
+    "slug": "university-of-alabama-at-birmingham",
+    "type": "undergraduate",
+    "location": "Birmingham, AL",
+    "ranking": 163,
+    "deadlines": {
+      "early_action": "2025-10-15",
+      "regular_decision": "2026-08-01"
+    }
+  },
+  {
+    "name": "Louisiana State University",
+    "slug": "louisiana-state-university",
+    "type": "undergraduate",
+    "location": "Baton Rouge, LA",
+    "ranking": 164,
+    "deadlines": {
+      "early_action": "2025-10-15",
+      "regular_decision": "2026-04-15"
+    }
+  },
+  {
+    "name": "University of Mississippi",
+    "slug": "university-of-mississippi",
+    "type": "undergraduate",
+    "location": "University, MS",
+    "ranking": 165,
+    "deadlines": {
+      "early_action": "2025-10-01",
+      "regular_decision": "2026-07-20"
+    }
+  },
+  {
+    "name": "Sam Houston State University",
+    "slug": "sam-houston-state-university",
+    "type": "undergraduate",
+    "location": "Huntsville, TX",
+    "ranking": 166,
+    "deadlines": {
+      "regular_decision": "2026-08-01"
+    }
+  },
+  {
+    "name": "University of Louisville",
+    "slug": "university-of-louisville",
+    "type": "undergraduate",
+    "location": "Louisville, KY",
+    "ranking": 167,
+    "deadlines": {
+      "early_action": "2025-12-01",
+      "regular_decision": "2026-08-01"
+    }
+  },
+  {
+    "name": "Marshall University",
+    "slug": "marshall-university",
+    "type": "undergraduate",
+    "location": "Huntington, WV",
+    "ranking": 168,
+    "deadlines": {
+      "regular_decision": "2026-08-15"
+    }
+  },
+  {
+    "name": "University of Wyoming",
+    "slug": "university-of-wyoming",
+    "type": "undergraduate",
+    "location": "Laramie, WY",
+    "ranking": 169,
+    "deadlines": {
+      "regular_decision": "2026-08-10"
+    }
+  },
+  {
+    "name": "Texas State University",
+    "slug": "texas-state-university",
+    "type": "undergraduate",
+    "location": "San Marcos, TX",
+    "ranking": 170,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "University of North Texas",
+    "slug": "university-of-north-texas",
+    "type": "undergraduate",
+    "location": "Denton, TX",
+    "ranking": 171,
+    "deadlines": {
+      "regular_decision": "2026-08-01"
+    }
+  },
+  {
+    "name": "University of Memphis",
+    "slug": "university-of-memphis",
+    "type": "undergraduate",
+    "location": "Memphis, TN",
+    "ranking": 172,
+    "deadlines": {
+      "regular_decision": "2026-08-01"
+    }
+  },
+  {
+    "name": "Western Michigan University",
+    "slug": "western-michigan-university",
+    "type": "undergraduate",
+    "location": "Kalamazoo, MI",
+    "ranking": 173,
+    "deadlines": {
+      "regular_decision": "2026-08-01"
+    }
+  },
+  {
+    "name": "Northern Illinois University",
+    "slug": "northern-illinois-university",
+    "type": "undergraduate",
+    "location": "DeKalb, IL",
+    "ranking": 174,
+    "deadlines": {
+      "regular_decision": "2026-08-01"
+    }
+  },
+  {
+    "name": "Central Michigan University",
+    "slug": "central-michigan-university",
+    "type": "undergraduate",
+    "location": "Mount Pleasant, MI",
+    "ranking": 175,
+    "deadlines": {
+      "regular_decision": "2026-08-01"
+    }
+  },
+  {
+    "name": "University of Massachusetts Boston",
+    "slug": "university-of-massachusetts-boston",
+    "type": "undergraduate",
+    "location": "Boston, MA",
+    "ranking": 176,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "University of Akron",
+    "slug": "university-of-akron",
+    "type": "undergraduate",
+    "location": "Akron, OH",
+    "ranking": 177,
+    "deadlines": {
+      "regular_decision": "2026-08-01"
+    }
+  },
+  {
+    "name": "Bowling Green State University",
+    "slug": "bowling-green-state-university",
+    "type": "undergraduate",
+    "location": "Bowling Green, OH",
+    "ranking": 178,
+    "deadlines": {
+      "regular_decision": "2026-07-15"
+    }
+  },
+  {
+    "name": "University of Toledo",
+    "slug": "university-of-toledo",
+    "type": "undergraduate",
+    "location": "Toledo, OH",
+    "ranking": 179,
+    "deadlines": {
+      "regular_decision": "2026-08-01"
+    }
+  },
+  {
+    "name": "Kent State University",
+    "slug": "kent-state-university",
+    "type": "undergraduate",
+    "location": "Kent, OH",
+    "ranking": 180,
+    "deadlines": {
+      "regular_decision": "2026-08-01"
+    }
+  },
+  {
+    "name": "Western Kentucky University",
+    "slug": "western-kentucky-university",
+    "type": "undergraduate",
+    "location": "Bowling Green, KY",
+    "ranking": 181,
+    "deadlines": {
+      "regular_decision": "2026-08-01"
+    }
+  },
+  {
+    "name": "University of North Florida",
+    "slug": "university-of-north-florida",
+    "type": "undergraduate",
+    "location": "Jacksonville, FL",
+    "ranking": 182,
+    "deadlines": {
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "Wichita State University",
+    "slug": "wichita-state-university",
+    "type": "undergraduate",
+    "location": "Wichita, KS",
+    "ranking": 183,
+    "deadlines": {
+      "regular_decision": "2026-08-01"
+    }
+  },
+  {
+    "name": "South Dakota State University",
+    "slug": "south-dakota-state-university",
+    "type": "undergraduate",
+    "location": "Brookings, SD",
+    "ranking": 184,
+    "deadlines": {
+      "regular_decision": "2026-08-01"
+    }
+  },
+  {
+    "name": "University of North Carolina at Charlotte",
+    "slug": "university-of-north-carolina-at-charlotte",
+    "type": "undergraduate",
+    "location": "Charlotte, NC",
+    "ranking": 185,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-07-01"
+    }
+  },
+  {
+    "name": "Georgia State University",
+    "slug": "georgia-state-university",
+    "type": "undergraduate",
+    "location": "Atlanta, GA",
+    "ranking": 186,
+    "deadlines": {
+      "early_action": "2025-11-15",
+      "regular_decision": "2026-07-01"
+    }
+  },
+  {
+    "name": "University of Cincinnati",
+    "slug": "university-of-cincinnati",
+    "type": "undergraduate",
+    "location": "Cincinnati, OH",
+    "ranking": 187,
+    "deadlines": {
+      "early_action": "2025-12-01",
+      "regular_decision": "2026-03-01"
+    }
+  },
+  {
+    "name": "Texas Tech University",
+    "slug": "texas-tech-university",
+    "type": "undergraduate",
+    "location": "Lubbock, TX",
+    "ranking": 188,
+    "deadlines": {
+      "early_action": "2025-11-01",
+      "regular_decision": "2026-05-01"
+    }
+  },
+  {
+    "name": "San Diego State University",
+    "slug": "san-diego-state-university",
+    "type": "undergraduate",
+    "location": "San Diego, CA",
+    "ranking": 189,
+    "deadlines": {
+      "regular_decision": "2025-11-30"
+    }
+  },
+  {
+    "name": "California Polytechnic State University, San Luis Obispo",
+    "slug": "california-polytechnic-state-university-san-luis-obispo",
+    "type": "undergraduate",
+    "location": "San Luis Obispo, CA",
+    "ranking": 190,
+    "deadlines": {
+      "regular_decision": "2025-11-30"
+    }
+  },
+  {
+    "name": "University of California, Riverside",
+    "slug": "university-of-california-riverside",
+    "type": "undergraduate",
+    "location": "Riverside, CA",
+    "ranking": 191,
+    "deadlines": {
+      "regular_decision": "2025-11-30"
+    }
+  },
+  {
+    "name": "Cal Poly Pomona",
+    "slug": "cal-poly-pomona",
+    "type": "undergraduate",
+    "location": "Pomona, CA",
+    "ranking": 192,
+    "deadlines": {
+      "regular_decision": "2025-11-30"
+    }
+  },
+  {
+    "name": "California State University, Long Beach",
+    "slug": "california-state-university-long-beach",
+    "type": "undergraduate",
+    "location": "Long Beach, CA",
+    "ranking": 193,
+    "deadlines": {
+      "regular_decision": "2025-11-30"
+    }
+  },
+  {
+    "name": "California State University, Los Angeles",
+    "slug": "california-state-university-los-angeles",
+    "type": "undergraduate",
+    "location": "Los Angeles, CA",
+    "ranking": 194,
+    "deadlines": {
+      "regular_decision": "2025-11-30"
+    }
+  },
+  {
+    "name": "San Jose State University",
+    "slug": "san-jose-state-university",
+    "type": "undergraduate",
+    "location": "San Jose, CA",
+    "ranking": 195,
+    "deadlines": {
+      "regular_decision": "2025-11-30"
+    }
+  },
+  {
+    "name": "California State University, Northridge",
+    "slug": "california-state-university-northridge",
+    "type": "undergraduate",
+    "location": "Northridge, CA",
+    "ranking": 196,
+    "deadlines": {
+      "regular_decision": "2025-11-30"
+    }
+  },
+  {
+    "name": "Sacramento State University",
+    "slug": "sacramento-state-university",
+    "type": "undergraduate",
+    "location": "Sacramento, CA",
+    "ranking": 197,
+    "deadlines": {
+      "regular_decision": "2025-11-30"
+    }
+  },
+  {
+    "name": "California State University, Fullerton",
+    "slug": "california-state-university-fullerton",
+    "type": "undergraduate",
+    "location": "Fullerton, CA",
+    "ranking": 198,
+    "deadlines": {
+      "regular_decision": "2025-11-30"
+    }
+  },
+  {
+    "name": "California State University, Fresno",
+    "slug": "california-state-university-fresno",
+    "type": "undergraduate",
+    "location": "Fresno, CA",
+    "ranking": 199,
+    "deadlines": {
+      "regular_decision": "2025-11-30"
+    }
+  },
+  {
+    "name": "California State University, Sacramento",
+    "slug": "california-state-university-sacramento",
+    "type": "undergraduate",
+    "location": "Sacramento, CA",
+    "ranking": 200,
+    "deadlines": {
+      "regular_decision": "2025-11-30"
+    }
+  }
+]
