@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 import { createClient } from "@/lib/supabase/client";
 import { DashboardShell } from "@/components/layouts/DashboardShell";
 import { useAppStore } from "@/hooks/use-store";
+import { useMessagesStore } from "@/hooks/use-messages-store";
+import { fetchUnreadCount } from "@/lib/actions/messages";
 
 export default function CoachDashboardLayout({
   children,
@@ -12,6 +14,7 @@ export default function CoachDashboardLayout({
 }) {
   const [ready, setReady] = useState(false);
   const { setProfile } = useAppStore();
+  const { setTotalUnreadCount } = useMessagesStore();
 
   useEffect(() => {
     const check = async () => {
@@ -58,11 +61,15 @@ export default function CoachDashboardLayout({
         setProfile(profile);
       }
 
+      // Fetch unread message count for sidebar/header badge
+      const { data: unreadCount } = await fetchUnreadCount();
+      setTotalUnreadCount(unreadCount ?? 0);
+
       setReady(true);
     };
 
     check();
-  }, [setProfile]);
+  }, [setProfile, setTotalUnreadCount]);
 
   if (!ready) {
     return (

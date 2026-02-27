@@ -2,10 +2,12 @@
 
 import { Bell, Search } from "lucide-react";
 import { useAppStore } from "@/hooks/use-store";
+import { useMessagesStore } from "@/hooks/use-messages-store";
 import { formatInitials } from "@/lib/utils/format";
 
 export function DashboardHeader() {
   const { profile, sidebarOpen } = useAppStore();
+  const { totalUnreadCount } = useMessagesStore();
 
   return (
     <header
@@ -26,7 +28,9 @@ export function DashboardHeader() {
       <div className="flex items-center gap-4">
         <button className="relative flex h-10 w-10 items-center justify-center rounded-lg text-ivory-600 transition-colors hover:bg-navy-800 hover:text-ivory-300">
           <Bell className="h-5 w-5" />
-          <span className="absolute right-2 top-2 h-2 w-2 rounded-full bg-gold-500 ring-2 ring-charcoal-900" />
+          {totalUnreadCount > 0 && (
+            <span className="absolute right-2 top-2 h-2 w-2 rounded-full bg-gold-500 ring-2 ring-charcoal-900" />
+          )}
         </button>
 
         <div className="flex items-center gap-3">

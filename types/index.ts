@@ -37,6 +37,27 @@ export type {
   EssayFeedbackInsert,
   EssayWithRelations,
   EssayListItem,
+  ActivityCategory,
+  DocumentCategory,
+  TaskPriority,
+  TaskStatus,
+  Activity,
+  ActivityInsert,
+  ActivityUpdate,
+  StudentDocument,
+  StudentDocumentInsert,
+  DocumentWithUploader,
+  StudentTask,
+  StudentTaskInsert,
+  StudentTaskUpdate,
+  TaskWithSchool,
+  MessageType,
+  Conversation,
+  ConversationInsert,
+  ChatMessage,
+  ChatMessageInsert,
+  ChatMessageUpdate,
+  MessageWithSender,
 } from "./database";
 
 // ─── Session / Appointment Types ────────────────────────────────────────────
@@ -58,15 +79,7 @@ export interface CoachingSession {
 }
 
 // ─── Message Types ──────────────────────────────────────────────────────────
-
-export interface Message {
-  id: string;
-  sender_id: string;
-  recipient_id: string;
-  content: string;
-  read: boolean;
-  created_at: string;
-}
+// MessageType, ChatMessage, Conversation, MessageWithSender now come from database.ts
 
 // ─── Application Tracker Types ──────────────────────────────────────────────
 
@@ -92,21 +105,7 @@ export interface Application {
 }
 
 // ─── Task / Milestone Types ─────────────────────────────────────────────────
-
-export type TaskPriority = "low" | "medium" | "high" | "urgent";
-
-export interface Task {
-  id: string;
-  student_id: string;
-  assigned_by: string | null;
-  title: string;
-  description: string | null;
-  priority: TaskPriority;
-  due_date: string | null;
-  completed: boolean;
-  completed_at: string | null;
-  created_at: string;
-}
+// TaskPriority, TaskStatus, StudentTask, TaskWithSchool now come from database.ts
 
 // ─── Notification Types ─────────────────────────────────────────────────────
 

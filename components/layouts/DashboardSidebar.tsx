@@ -1,5 +1,6 @@
 "use client";
 
+import { useMemo } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
@@ -23,6 +24,7 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils/cn";
 import { useAppStore } from "@/hooks/use-store";
+import { useMessagesStore } from "@/hooks/use-messages-store";
 import { createClient } from "@/lib/supabase/client";
 import { toast } from "react-hot-toast";
 
@@ -30,6 +32,7 @@ interface NavItem {
   label: string;
   href: string;
   icon: React.ElementType;
+  badge?: number;
 }
 
 interface DashboardSidebarProps {
@@ -68,7 +71,16 @@ const navItemsByRole: Record<string, NavItem[]> = {
 export function DashboardSidebar({ role }: DashboardSidebarProps) {
   const pathname = usePathname();
   const { sidebarOpen, toggleSidebar } = useAppStore();
-  const navItems = navItemsByRole[role] || [];
+  const { totalUnreadCount } = useMessagesStore();
+
+  const navItems = useMemo(() => {
+    const items = navItemsByRole[role] || [];
+    return items.map((item) =>
+      item.label === "Messages" && totalUnreadCount > 0
+        ? { ...item, badge: totalUnreadCount }
+        : item
+    );
+  }, [role, totalUnreadCount]);
 
   const handleSignOut = async () => {
     const supabase = createClient();
@@ -157,6 +169,14 @@ export function DashboardSidebar({ role }: DashboardSidebarProps) {
                   </motion.span>
                 )}
               </AnimatePresence>
+              {item.badge && item.badge > 0 && sidebarOpen && (
+                <span className="ml-auto flex h-5 min-w-[1.25rem] items-center justify-center rounded-full bg-gold-500 px-1.5 font-sans text-[0.625rem] font-bold text-navy-950">
+                  {item.badge > 99 ? "99+" : item.badge}
+                </span>
+              )}
+              {item.badge && item.badge > 0 && !sidebarOpen && (
+                <span className="absolute right-1 top-1 h-2 w-2 rounded-full bg-gold-500" />
+              )}
             </Link>
           );
         })}

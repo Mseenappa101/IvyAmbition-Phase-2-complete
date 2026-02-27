@@ -22,4 +22,16 @@ export const ROUTES = {
     list: "/student/essays",
     detail: (id: string) => `/student/essays/${id}`,
   },
+  activities: {
+    list: "/student/activities",
+  },
+  documents: {
+    list: "/student/documents",
+  },
+  tasks: {
+    list: "/student/tasks",
+  },
+  messages: {
+    list: "/student/messages",
+  },
 } as const;

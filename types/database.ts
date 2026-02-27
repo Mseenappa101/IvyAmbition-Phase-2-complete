@@ -28,6 +28,49 @@ export type RequirementType =
   | "supplement"
   | "other";
 
+// ─── Activity / Document / Task Enum Types ────────────────────────────────
+
+export type ActivityCategory =
+  | "academic"
+  | "arts"
+  | "athletics"
+  | "career"
+  | "community_service"
+  | "computer_technology"
+  | "cultural"
+  | "family_responsibilities"
+  | "government"
+  | "journalism"
+  | "lgbtq"
+  | "music"
+  | "religious"
+  | "research"
+  | "school_spirit"
+  | "social_justice"
+  | "work_experience"
+  | "volunteer"
+  | "leadership"
+  | "publication"
+  | "extracurricular"
+  | "military"
+  | "other";
+
+export type DocumentCategory =
+  | "transcript"
+  | "test_scores"
+  | "resume"
+  | "letter_of_rec"
+  | "financial"
+  | "essay_draft"
+  | "other";
+
+export type TaskPriority = "low" | "medium" | "high" | "urgent";
+export type TaskStatus = "pending" | "in_progress" | "completed";
+
+// ─── Messaging Enum Types ────────────────────────────────────────────────────
+
+export type MessageType = "text" | "feedback" | "file" | "system";
+
 // ─── Essay Enum Types ──────────────────────────────────────────────────────
 
 export type EssayStatus =
@@ -411,6 +454,270 @@ export interface Database {
           },
         ];
       };
+      activities: {
+        Row: {
+          id: string;
+          student_id: string;
+          activity_name: string;
+          category: ActivityCategory;
+          organization: string;
+          position_title: string;
+          description: string;
+          character_count: number;
+          start_date: string | null;
+          end_date: string | null;
+          hours_per_week: number;
+          weeks_per_year: number;
+          grade_levels: string[];
+          ranking: number;
+          coach_feedback: string | null;
+          created_at: string;
+          updated_at: string;
+        };
+        Insert: {
+          id?: string;
+          student_id: string;
+          activity_name: string;
+          category?: ActivityCategory;
+          organization?: string;
+          position_title?: string;
+          description?: string;
+          character_count?: number;
+          start_date?: string | null;
+          end_date?: string | null;
+          hours_per_week?: number;
+          weeks_per_year?: number;
+          grade_levels?: string[];
+          ranking?: number;
+          coach_feedback?: string | null;
+          created_at?: string;
+          updated_at?: string;
+        };
+        Update: {
+          activity_name?: string;
+          category?: ActivityCategory;
+          organization?: string;
+          position_title?: string;
+          description?: string;
+          character_count?: number;
+          start_date?: string | null;
+          end_date?: string | null;
+          hours_per_week?: number;
+          weeks_per_year?: number;
+          grade_levels?: string[];
+          ranking?: number;
+          coach_feedback?: string | null;
+          updated_at?: string;
+        };
+        Relationships: [
+          {
+            foreignKeyName: "activities_student_id_fkey";
+            columns: ["student_id"];
+            isOneToOne: false;
+            referencedRelation: "student_profiles";
+            referencedColumns: ["id"];
+          },
+        ];
+      };
+      documents: {
+        Row: {
+          id: string;
+          student_id: string;
+          file_name: string;
+          file_type: string;
+          file_url: string;
+          file_size: number;
+          category: DocumentCategory;
+          uploaded_by: string;
+          notes: string | null;
+          created_at: string;
+        };
+        Insert: {
+          id?: string;
+          student_id: string;
+          file_name: string;
+          file_type: string;
+          file_url: string;
+          file_size: number;
+          category?: DocumentCategory;
+          uploaded_by: string;
+          notes?: string | null;
+          created_at?: string;
+        };
+        Update: {
+          file_name?: string;
+          category?: DocumentCategory;
+          notes?: string | null;
+        };
+        Relationships: [
+          {
+            foreignKeyName: "documents_student_id_fkey";
+            columns: ["student_id"];
+            isOneToOne: false;
+            referencedRelation: "student_profiles";
+            referencedColumns: ["id"];
+          },
+          {
+            foreignKeyName: "documents_uploaded_by_fkey";
+            columns: ["uploaded_by"];
+            isOneToOne: false;
+            referencedRelation: "profiles";
+            referencedColumns: ["id"];
+          },
+        ];
+      };
+      tasks: {
+        Row: {
+          id: string;
+          student_id: string;
+          student_school_id: string | null;
+          title: string;
+          description: string | null;
+          due_date: string;
+          priority: TaskPriority;
+          status: TaskStatus;
+          created_by: string;
+          created_at: string;
+          updated_at: string;
+        };
+        Insert: {
+          id?: string;
+          student_id: string;
+          student_school_id?: string | null;
+          title: string;
+          description?: string | null;
+          due_date: string;
+          priority?: TaskPriority;
+          status?: TaskStatus;
+          created_by: string;
+          created_at?: string;
+          updated_at?: string;
+        };
+        Update: {
+          student_school_id?: string | null;
+          title?: string;
+          description?: string | null;
+          due_date?: string;
+          priority?: TaskPriority;
+          status?: TaskStatus;
+          updated_at?: string;
+        };
+        Relationships: [
+          {
+            foreignKeyName: "tasks_student_id_fkey";
+            columns: ["student_id"];
+            isOneToOne: false;
+            referencedRelation: "student_profiles";
+            referencedColumns: ["id"];
+          },
+          {
+            foreignKeyName: "tasks_student_school_id_fkey";
+            columns: ["student_school_id"];
+            isOneToOne: false;
+            referencedRelation: "student_schools";
+            referencedColumns: ["id"];
+          },
+          {
+            foreignKeyName: "tasks_created_by_fkey";
+            columns: ["created_by"];
+            isOneToOne: false;
+            referencedRelation: "profiles";
+            referencedColumns: ["id"];
+          },
+        ];
+      };
+      conversations: {
+        Row: {
+          id: string;
+          student_id: string;
+          coach_id: string;
+          created_at: string;
+        };
+        Insert: {
+          id?: string;
+          student_id: string;
+          coach_id: string;
+          created_at?: string;
+        };
+        Update: {
+          id?: string;
+          student_id?: string;
+          coach_id?: string;
+        };
+        Relationships: [
+          {
+            foreignKeyName: "conversations_student_id_fkey";
+            columns: ["student_id"];
+            isOneToOne: false;
+            referencedRelation: "student_profiles";
+            referencedColumns: ["id"];
+          },
+          {
+            foreignKeyName: "conversations_coach_id_fkey";
+            columns: ["coach_id"];
+            isOneToOne: false;
+            referencedRelation: "profiles";
+            referencedColumns: ["id"];
+          },
+        ];
+      };
+      messages: {
+        Row: {
+          id: string;
+          conversation_id: string;
+          sender_id: string;
+          content: string;
+          message_type: MessageType;
+          related_essay_id: string | null;
+          related_school_id: string | null;
+          read_at: string | null;
+          created_at: string;
+        };
+        Insert: {
+          id?: string;
+          conversation_id: string;
+          sender_id: string;
+          content: string;
+          message_type?: MessageType;
+          related_essay_id?: string | null;
+          related_school_id?: string | null;
+          read_at?: string | null;
+          created_at?: string;
+        };
+        Update: {
+          read_at?: string | null;
+        };
+        Relationships: [
+          {
+            foreignKeyName: "messages_conversation_id_fkey";
+            columns: ["conversation_id"];
+            isOneToOne: false;
+            referencedRelation: "conversations";
+            referencedColumns: ["id"];
+          },
+          {
+            foreignKeyName: "messages_sender_id_fkey";
+            columns: ["sender_id"];
+            isOneToOne: false;
+            referencedRelation: "profiles";
+            referencedColumns: ["id"];
+          },
+          {
+            foreignKeyName: "messages_related_essay_id_fkey";
+            columns: ["related_essay_id"];
+            isOneToOne: false;
+            referencedRelation: "essays";
+            referencedColumns: ["id"];
+          },
+          {
+            foreignKeyName: "messages_related_school_id_fkey";
+            columns: ["related_school_id"];
+            isOneToOne: false;
+            referencedRelation: "student_schools";
+            referencedColumns: ["id"];
+          },
+        ];
+      };
     };
     Views: {
       [_ in never]: never;
@@ -427,6 +734,11 @@ export interface Database {
       essay_status: EssayStatus;
       feedback_type: FeedbackType;
       feedback_status: FeedbackStatus;
+      activity_category: ActivityCategory;
+      document_category: DocumentCategory;
+      task_priority: TaskPriority;
+      task_status: TaskStatus;
+      message_type: MessageType;
     };
     CompositeTypes: {
       [_ in never]: never;
@@ -498,4 +810,45 @@ export type EssayWithRelations = Essay & {
 export type EssayListItem = Essay & {
   student_schools: { school_name: string } | null;
   essay_feedback: { id: string; status: FeedbackStatus }[];
+};
+
+// ─── Activity Types ───────────────────────────────────────────────────────
+
+export type Activity = Database["public"]["Tables"]["activities"]["Row"];
+export type ActivityInsert = Database["public"]["Tables"]["activities"]["Insert"];
+export type ActivityUpdate = Database["public"]["Tables"]["activities"]["Update"];
+
+// ─── Document Types ───────────────────────────────────────────────────────
+// Named StudentDocument to avoid collision with DOM Document type
+
+export type StudentDocument = Database["public"]["Tables"]["documents"]["Row"];
+export type StudentDocumentInsert = Database["public"]["Tables"]["documents"]["Insert"];
+
+export type DocumentWithUploader = StudentDocument & {
+  profiles: { first_name: string; last_name: string };
+};
+
+// ─── Task Types ───────────────────────────────────────────────────────────
+
+export type StudentTask = Database["public"]["Tables"]["tasks"]["Row"];
+export type StudentTaskInsert = Database["public"]["Tables"]["tasks"]["Insert"];
+export type StudentTaskUpdate = Database["public"]["Tables"]["tasks"]["Update"];
+
+export type TaskWithSchool = StudentTask & {
+  student_schools: { school_name: string } | null;
+};
+
+// ─── Messaging Types ────────────────────────────────────────────────────────
+
+export type Conversation = Database["public"]["Tables"]["conversations"]["Row"];
+export type ConversationInsert = Database["public"]["Tables"]["conversations"]["Insert"];
+
+export type ChatMessage = Database["public"]["Tables"]["messages"]["Row"];
+export type ChatMessageInsert = Database["public"]["Tables"]["messages"]["Insert"];
+export type ChatMessageUpdate = Database["public"]["Tables"]["messages"]["Update"];
+
+export type MessageWithSender = ChatMessage & {
+  profiles: Pick<Profile, "id" | "first_name" | "last_name" | "avatar_url">;
+  essays: { id: string; title: string } | null;
+  student_schools: { id: string; school_name: string } | null;
 };
